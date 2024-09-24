@@ -4,19 +4,16 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useSelectedLayoutSegment } from "next/navigation";
 import { Menu, X } from "lucide-react";
-import { useSession } from "next-auth/react";
 
 import { docsConfig } from "@/config/docs";
 import { marketingConfig } from "@/config/marketing";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
-import { DocsSidebarNav } from "@/components/docs/sidebar-nav";
 import { Icons } from "@/components/shared/icons";
 
 import { ModeToggle } from "./mode-toggle";
 
 export function NavMobile() {
-  const { data: session } = useSession();
   const [open, setOpen] = useState(false);
   const selectedLayout = useSelectedLayoutSegment();
   const documentation = selectedLayout === "docs";
@@ -60,72 +57,30 @@ export function NavMobile() {
         )}
       >
         <ul className="grid divide-y divide-muted">
-          {links && links.length > 0 && links.map(({ title, href }) => (
-            <li key={href} className="py-3">
-              <Link
-                href={href}
-                onClick={() => setOpen(false)}
-                className="flex w-full font-medium capitalize"
-              >
-                {title}
-              </Link>
-            </li>
-          ))}
-
-          {session ? (
-            <>
-              {session.user.role === "ADMIN" ? (
-                <li className="py-3">
-                  <Link
-                    href="/admin"
-                    onClick={() => setOpen(false)}
-                    className="flex w-full font-medium capitalize"
-                  >
-                    Admin
-                  </Link>
-                </li>
-              ) : null}
-
-              <li className="py-3">
+          {links &&
+            links.length > 0 &&
+            links.map(({ title, href }) => (
+              <li key={href} className="py-3">
                 <Link
-                  href="/dashboard"
+                  href={href}
                   onClick={() => setOpen(false)}
                   className="flex w-full font-medium capitalize"
                 >
-                  Dashboard
+                  {title}
                 </Link>
               </li>
-            </>
-          ) : (
-            <>
-              <li className="py-3">
-                <Link
-                  href="/login"
-                  onClick={() => setOpen(false)}
-                  className="flex w-full font-medium capitalize"
-                >
-                  Login
-                </Link>
-              </li>
+            ))}
 
-              <li className="py-3">
-                <Link
-                  href="/register"
-                  onClick={() => setOpen(false)}
-                  className="flex w-full font-medium capitalize"
-                >
-                  Sign up
-                </Link>
-              </li>
-            </>
-          )}
+          <li className="py-3">
+            <Link
+              href="/register"
+              onClick={() => setOpen(false)}
+              className="flex w-full font-medium capitalize"
+            >
+              Invest in $halal
+            </Link>
+          </li>
         </ul>
-
-        {documentation ? (
-          <div className="mt-8 block md:hidden">
-            <DocsSidebarNav setOpen={setOpen} />
-          </div>
-        ) : null}
 
         <div className="mt-5 flex items-center justify-end space-x-4">
           <Link href={siteConfig.links.github} target="_blank" rel="noreferrer">

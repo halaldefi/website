@@ -1,7 +1,3 @@
-const { withContentlayer } = require("next-contentlayer2");
-
-import("./env.mjs");
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -22,9 +18,6 @@ const nextConfig = {
       },
     ],
   },
-  experimental: {
-    serverComponentsExternalPackages: ["@prisma/client"],
-  },
 };
 
-module.exports = withContentlayer(nextConfig);
+module.exports = nextConfig;

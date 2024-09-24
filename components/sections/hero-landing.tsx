@@ -1,31 +1,34 @@
+import Image from "next/image";
 import Link from "next/link";
 
-import { env } from "@/env.mjs";
 import { siteConfig } from "@/config/site";
 import { cn, nFormatter } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
 import { Icons } from "@/components/shared/icons";
 
-export default async function HeroLanding() {
-  const { stargazers_count: stars } = await fetch(
-    "https://api.github.com/repos/mickasmt/next-saas-stripe-starter",
-    {
-      ...(env.GITHUB_OAUTH_TOKEN && {
-        headers: {
-          Authorization: `Bearer ${process.env.GITHUB_OAUTH_TOKEN}`,
-          "Content-Type": "application/json",
-        },
-      }),
-      // data will revalidate every hour
-      next: { revalidate: 3600 },
-    },
-  )
-    .then((res) => res.json())
-    .catch((e) => console.log(e));
-
+export default function HeroLanding() {
   return (
-    <section className="space-y-6 py-12 sm:py-20 lg:py-20">
-      <div className="container flex max-w-5xl flex-col items-center gap-5 text-center">
+    <section className="relative space-y-6 overflow-hidden py-12 sm:py-20 lg:py-20">
+      {/* Background layers */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/_static/landing/vector.png"
+          alt="Background"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+        />
+      </div>
+      <div
+        className="absolute inset-0 z-10"
+        style={{
+          background: 'radial-gradient(circle at bottom center, rgba(255, 199, 114, 0.3) 0%, rgba(255, 199, 114, 0.4) 5%, rgba(255, 255, 255, 0) 70%)',
+          transform: "scale(1.5)",
+        }}
+      ></div>
+      
+      {/* Content */}
+      <div className="container relative z-20 flex max-w-5xl flex-col items-center gap-5 text-center">
         <Link
           href="https://twitter.com/miickasmt/status/1810465801649938857"
           className={cn(
@@ -34,40 +37,35 @@ export default async function HeroLanding() {
           )}
           target="_blank"
         >
-          <span className="mr-3">🎉</span>
-          <span className="hidden md:flex">Introducing&nbsp;</span> Next Auth
-          Roles Template on <Icons.twitter className="ml-2 size-3.5" />
+          <span className="mr-3">
+            <Icons.solid className="ml-2 size-3.5" />
+          </span>
+          <span className="hidden md:flex">
+            Lorem ipsum dolor sit amet consectetur
+          </span>
         </Link>
 
         <h1 className="text-balance font-urban text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-[66px]">
-          Kick off with a bang with{" "}
-          <span className="text-gradient_indigo-purple font-extrabold">
-            SaaS Starter
-          </span>
+          Shaping the Future of Web3 with Integrity
         </h1>
 
-        <p
-          className="max-w-2xl text-balance leading-normal text-muted-foreground sm:text-xl sm:leading-8"
-          style={{ animationDelay: "0.35s", animationFillMode: "forwards" }}
-        >
-          Build your next project using Next.js 14, Prisma, Neon, Auth.js v5,
-          Resend, React Email, Shadcn/ui, Stripe.
+        <p className="max-w-4xl text-balance leading-normal text-muted-foreground sm:text-xl sm:leading-8">
+          Halal DeFi is a Shariah-compliant venture fund on the blockchain,
+          providing access to high-growth opportunities in Web3. Each investment
+          aligns with the principles of Islamic finance—no riba, no compromise.
         </p>
 
-        <div
-          className="flex justify-center space-x-2 md:space-x-4"
-          style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}
-        >
+        <div className="flex justify-center space-x-2 md:space-x-4">
           <Link
             href="/pricing"
             prefetch={true}
             className={cn(
-              buttonVariants({ size: "lg", rounded: "full" }),
-              "gap-2",
+              buttonVariants({ rounded: "full" }),
+              "gap-2 pl-2 pr-4",
             )}
           >
-            <span>Go Pricing</span>
-            <Icons.arrowRight className="size-4" />
+            <Icons.right_double_arrow className="mr-2 size-4" />
+            <span> Invest in $halal</span>
           </Link>
           <Link
             href={siteConfig.links.github}
@@ -82,10 +80,8 @@ export default async function HeroLanding() {
               "px-5",
             )}
           >
-            <Icons.gitHub className="mr-2 size-4" />
             <p>
-              <span className="hidden sm:inline-block">Star on</span> GitHub{" "}
-              <span className="font-semibold">{nFormatter(stars)}</span>
+              <span className="sm:inline-block">Learn More</span>
             </p>
           </Link>
         </div>

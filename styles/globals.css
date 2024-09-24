@@ -90,3 +90,18 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+.text-gradient_halal {
+  background: linear-gradient(90deg, #FFBB06 0%, #291E00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card-gradient_halal {
+  background: linear-gradient(45deg, #FFBB06 0%, #856203 20%, #291E00 100%);
+  color: white;
+}
+.card-gradient2_halal{
+  background: radial-gradient(circle, #402d21 20%, #000000 100%);
+}
