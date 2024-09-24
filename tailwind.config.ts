@@ -20,6 +20,9 @@ const config = {
       padding: ".8rem",
     },
     extend: {
+      boxShadow:{
+        'custom': '0px 8px 24px rgba(149, 157, 165, 0.2)',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

@@ -19,7 +19,7 @@ export default function WhyHalal() {
             "linear-gradient(rgba(255, 199, 114, 0.2) 0%, #F7F7F8 100%)",
         }}
       >
-        <div className="w-[95%] rounded-2xl bg-white md:w-[98%] lg:w-[98%]">
+        <div className="w-[95%] rounded-2xl shadow-custom bg-white shadow-custom md:w-[98%] lg:w-[98%]">
           <MaxWidthWrapper className="mt-14">
             <HeaderSection title="Why Halal Defi?" />
             <div className="relative z-10 mt-20 grid grid-cols-7 gap-3">
@@ -44,7 +44,7 @@ export default function WhyHalal() {
                 </div>
                 <div className="z-20 flex w-full flex-col flex-wrap p-16 lg:flex-row">
                   <div className="w-full lg:w-3/5">
-                    <p className="lg:w-3/5 text-4xl text-white">
+                    <p className="text-4xl text-white lg:w-3/5">
                       Early Access to High-Growth Web3 Projects
                     </p>
                     <p className="mt-10 text-sm text-white">
@@ -66,17 +66,35 @@ export default function WhyHalal() {
                         }),
                         "px-5",
                         "mt-10",
-                        "bg-white"
+                        "bg-white",
                       )}
                     >
                       <p>
-                        <span className="sm:inline-block">Try it for free!</span>
+                        <span className="sm:inline-block">
+                          Try it for free!
+                        </span>
                       </p>
                     </Link>
                   </div>
-                  <div className="w-full bg-green-500 lg:w-2/5"></div>
+                  <div className="relative w-full lg:w-2/5">
+                    <div className="absolute top-0">
+                      <Icons.line_chart />
+                    </div>
+                    <div className="absolute right-56 top-0">
+                      <Icons.dotted_y_line />
+                    </div>
+                    <div className="absolute right-20 top-24 h-10 w-32">
+                      <Image
+                        src="/_static/landing/halal-widget2.png"
+                        alt="Background"
+                        layout="fill"
+                        quality={100}
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
+
               {/* First card */}
               <div className="relative col-span-full flex overflow-hidden rounded-2xl bg-[#F8F8F8] lg:col-span-3">
                 <div className="relative hidden h-72 lg:block">
@@ -280,6 +298,49 @@ export default function WhyHalal() {
                           quality={100}
                         />
                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="relative col-span-full flex overflow-hidden rounded-2xl lg:col-span-7">
+                <div className="z-20 flex w-full flex-col flex-wrap py-16 lg:flex-row">
+                  <div className="w-full lg:w-3/5">
+                    <p className="text-4xl text-black lg:w-3/5">
+                      Early Access to High-Growth Web3 Projects
+                    </p>
+                    <p className="mt-10 text-sm text-black">
+                      As a micro venture fund, Halal DeFi gives you early-stage
+                      access to blockchain and decentralized finance (DeFi)
+                      projects that are typically reserved for institutional
+                      investors. This means you can invest in promising projects
+                      before they reach the mainstream market.
+                    </p>
+                    <Link
+                      href="/pricing"
+                      prefetch={true}
+                      className={cn(
+                        buttonVariants({ rounded: "full" }),
+                        "mt-10 gap-2 pl-2 p-4",
+                      )}
+                    >
+                      <span> Invest in $halal</span>
+                    </Link>
+                  </div>
+                  <div className="relative w-full lg:w-2/5">
+                    <div className="absolute top-0">
+                      <Icons.line_chart />
+                    </div>
+                    <div className="absolute right-56 top-0">
+                      <Icons.dotted_y_line />
+                    </div>
+                    <div className="absolute right-20 top-24 h-10 w-32">
+                      <Image
+                        src="/_static/landing/halal-widget2.png"
+                        alt="Background"
+                        layout="fill"
+                        quality={100}
+                      />
                     </div>
                   </div>
                 </div>
