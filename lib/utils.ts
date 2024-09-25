@@ -15,33 +15,24 @@ export function constructMetadata({
   image = siteConfig.ogImage,
   icons = "/favicon.ico",
   noIndex = false,
-}: {
-  title?: string;
-  description?: string;
-  image?: string;
-  icons?: string;
-  noIndex?: boolean;
 } = {}): Metadata {
   return {
     title,
     description,
     keywords: [
+      "DeFi",
+      "Halal Finance",
+      "Cryptocurrency",
+      "Blockchain",
       "Next.js",
       "React",
-      "Prisma",
-      "Neon",
-      "Auth.js",
-      "shadcn ui",
-      "Resend",
-      "React Email",
-      "Stripe",
     ],
     authors: [
       {
-        name: "mickasmt",
+        name: "halal.io",
       },
     ],
-    creator: "mickasmt",
+    creator: "halal.io",
     openGraph: {
       type: "website",
       locale: "en_US",
@@ -55,11 +46,11 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: "@miickasmt",
+      creator: "@halal_io",
     },
     icons,
     metadataBase: new URL(siteConfig.url),
-    manifest: `${siteConfig.url}/site.webmanifest`,
+    manifest: `/site.webmanifest`,
     ...(noIndex && {
       robots: {
         index: false,
@@ -79,10 +70,9 @@ export function formatDate(input: string | number): string {
 }
 
 export function absoluteUrl(path: string) {
-  return `http://localhost:3000${path}`;
+  return `${siteConfig.url}${path}`;
 }
 
-// Utils from precedent.dev
 export const timeAgo = (timestamp: Date, timeOnly?: boolean): string => {
   if (!timestamp) return "never";
   return `${ms(Date.now() - new Date(timestamp).getTime())}${
@@ -124,7 +114,7 @@ export function nFormatter(num: number, digits?: number) {
     { value: 1e18, symbol: "E" },
   ];
   const rx = /\.0+$|(\.[0-9]*[1-9])0+$/;
-  var item = lookup
+  const item = lookup
     .slice()
     .reverse()
     .find(function (item) {
@@ -160,7 +150,7 @@ export const getBlurDataURL = async (url: string | null) => {
     );
     const buffer = await response.arrayBuffer();
     const base64 = Buffer.from(buffer).toString("base64");
-    console.log(base64)
+    console.log(base64);
 
     return `data:image/png;base64,${base64}`;
   } catch (error) {
