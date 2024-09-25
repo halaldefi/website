@@ -56,7 +56,7 @@ export function NewsletterForm() {
               <FormControl>
                 <Input
                   type="email"
-                  className="rounded-full px-4 bg-gray-300"
+                  className="rounded-full bg-gray-300 px-4"
                   placeholder="Fill your mail"
                   {...field}
                 />

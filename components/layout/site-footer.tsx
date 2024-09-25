@@ -27,7 +27,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
             <p>Halal DeFi is a Shariah-compliant micro VC fund on the blockchain, driving ethical investments in Web3 and DeFi. We see crypto as the future of freedom—empowering people, ideas, and markets.</p>
           </div>
           <div className="mt-2">
-            <p className="font-semibold text-sm">© 2024 halal.io . All right Reserved</p>
+            <p className="text-sm font-semibold">© 2024 halal.io . All right Reserved</p>
           </div>
         </div>
         <div className="col-span-full flex flex-col sm:col-span-1 lg:col-span-1"></div>

@@ -19,20 +19,20 @@ export default function WhyHalal() {
             "linear-gradient(rgba(255, 199, 114, 0.2) 0%, #F7F7F8 100%)",
         }}
       >
-        <div className="shadow-custom w-[95%] rounded-2xl bg-white md:w-[98%] lg:w-[98%]">
+        <div className="w-[95%] rounded-2xl bg-white md:w-[98%] lg:w-[98%]">
           <MaxWidthWrapper className="mt-14">
             <HeaderSection title="Why Halal Defi?" />
 
             <div className="relative z-10 mt-20 grid grid-cols-7 gap-3">
               <div className="relative col-span-full flex overflow-hidden rounded-2xl bg-[#F8F8F8] lg:col-span-7">
                 <div
-                  className="card relative h-full w-full overflow-hidden rounded-3xl"
+                  className="card relative size-full overflow-hidden rounded-3xl"
                   style={{
                     background:
                       "radial-gradient(circle at top right, #402d21 20%, #000000 100%)",
                   }}
                 >
-                  <div className="absolute bottom-0 left-0 right-0 top-0">
+                  <div className="absolute inset-0">
                     <Image
                       src="/_static/landing/vector2.png"
                       alt="Background"
@@ -106,7 +106,7 @@ export default function WhyHalal() {
                     <Icons.x_grid />
                   </div>
                 </div>
-                <div className="relative z-10 mb-6 mt-6 block space-y-1.5 px-6 lg:flex lg:items-end lg:justify-center">
+                <div className="relative z-10 my-6 block space-y-1.5 px-6 lg:flex lg:items-end lg:justify-center">
                   <h1 className="mr-16 text-4xl font-semibold text-foreground">
                     Ethical Investments
                   </h1>
@@ -328,15 +328,15 @@ export default function WhyHalal() {
                       <span> Invest in $halal</span>
                     </Link>
                   </div>
-                  <div className="relative h-full w-full rounded-3xl lg:w-3/5">
+                  <div className="relative size-full rounded-3xl lg:w-3/5">
                     <div
-                      className="card relative h-full w-full overflow-hidden rounded-3xl"
+                      className="card relative size-full overflow-hidden rounded-3xl"
                       style={{
                         background:
                           "radial-gradient(circle at top right, #402d21 20%, #000000 100%)",
                       }}
                     >
-                      <div className="absolute bottom-0 left-0 right-0 top-0">
+                      <div className="absolute inset-0">
                         <Image
                           src="/_static/landing/vector2.png"
                           alt="Background"

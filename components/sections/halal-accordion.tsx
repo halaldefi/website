@@ -32,14 +32,14 @@ const halalData = [
   },
 ];
 
-export default function () {
+export default function HalalAccordion () {
   return (
     <section>
       <div className="align-center flex w-full justify-center bg-[#F8F8F8]">
-        <div className="w-[95%] bg-[#F8F8F8] md:w-[80%] lg:w-[80%]">
+        <div className="w-[95%] bg-[#F8F8F8] md:w-4/5 lg:w-4/5">
           <div className="relative z-10 my-10 grid grid-cols-7 gap-3">
             <div className="relative col-span-full flex overflow-hidden rounded-2xl bg-white lg:col-span-7">
-              <div className="card relative h-full w-full overflow-hidden rounded-3xl">
+              <div className="card relative size-full overflow-hidden rounded-3xl">
                 <div className="z-20 flex w-full flex-col flex-wrap p-10 lg:flex-row">
                   <div className="flex w-full flex-col justify-between lg:w-2/5">
                     <p className="text-7xl text-black">How Halal.io Works</p>

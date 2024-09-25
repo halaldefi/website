@@ -4,7 +4,7 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
 
-export default function () {
+export default function HalalCard () {
   return (
     <section>
       <div className="align-center flex w-full justify-center bg-[#F8F8F8]">
@@ -12,13 +12,13 @@ export default function () {
           <div className="relative z-10 mt-20 grid grid-cols-7 gap-3">
             <div className="relative col-span-full flex overflow-hidden rounded-2xl lg:col-span-7">
               <div
-                className="card relative h-full w-full overflow-hidden rounded-3xl"
+                className="card relative size-full overflow-hidden rounded-3xl"
                 style={{
                   background:
                     "radial-gradient(circle at top right, #402d21 20%, #000000 100%)",
                 }}
               >
-                <div className="absolute bottom-0 left-0 right-0 top-0">
+                <div className="absolute inset-0">
                   <Image
                     src="/_static/landing/vector2.png"
                     alt="Background"
@@ -42,7 +42,7 @@ export default function () {
                           size: "lg",
                           rounded: "full",
                         }),
-                        "px-5 mt-10 mb-10 bg-white lg:mb-",
+                        "my-10 bg-white px-5 ",
                       )}
                     >
                       <p>
