@@ -59,8 +59,8 @@ export function NavMobile() {
         <ul className="grid divide-y divide-muted">
           {links &&
             links.length > 0 &&
-            links.map(({ title, href }) => (
-              <li key={href} className="py-3">
+            links.map(({ title, href, id }) => (
+              <li key={id} className="py-3">
                 <Link
                   href={href}
                   onClick={() => setOpen(false)}
@@ -82,13 +82,13 @@ export function NavMobile() {
           </li>
         </ul>
 
-        <div className="mt-5 flex items-center justify-end space-x-4">
+        {/* <div className="mt-5 flex items-center justify-end space-x-4">
           <Link href={siteConfig.links.github} target="_blank" rel="noreferrer">
             <Icons.gitHub className="size-6" />
             <span className="sr-only">GitHub</span>
           </Link>
           <ModeToggle />
-        </div>
+        </div> */}
       </nav>
     </>
   );

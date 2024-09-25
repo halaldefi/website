@@ -23,6 +23,7 @@ export type NavItem = {
   external?: boolean;
   authorizeOnly?: UserRole;
   icon?: keyof typeof Icons;
+  id: number
 };
 
 export type MainNavItem = NavItem;
@@ -36,6 +37,7 @@ export type SidebarNavItem = {
   items: NavItem[];
   authorizeOnly?: UserRole;
   icon?: keyof typeof Icons;
+  id: number
 };
 
 export type DocsConfig = {

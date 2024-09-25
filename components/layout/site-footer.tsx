@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 
 import { NewsletterForm } from "../forms/newsletter-form";
 import Image from "next/image";
+import { ModeToggle } from "@/components/layout/mode-toggle";
 
 export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
   return (
@@ -31,13 +32,13 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
         </div>
         <div className="col-span-full flex flex-col sm:col-span-1 lg:col-span-1"></div>
         {footerLinks.map((section) => (
-          <div key={section.title}>
+          <div key={section.id}>
             <span className="text-sm font-medium text-foreground">
               {section.title}
             </span>
             <ul className="mt-4 list-inside space-y-3">
               {section.items?.map((link) => (
-                <li key={link.title}>
+                <li key={link.id}>
                   <Link
                     href={link.href}
                     className="text-sm text-muted-foreground hover:text-primary"
@@ -53,6 +54,50 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
           <NewsletterForm />
         </div>
       </div>
+      {/* <div className="border-t py-4">
+        <div className="container flex max-w-6xl items-center justify-between">
+          <p className="text-left text-sm text-muted-foreground">
+            Built by{" "}
+            <Link
+              href={siteConfig.links.twitter}
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium underline underline-offset-4"
+            >
+              mickasmt
+            </Link>
+            . Hosted on{" "}
+            <Link
+              href="https://vercel.com"
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium underline underline-offset-4"
+            >
+              Vercel
+            </Link>
+            . Illustrations by{" "}
+            <Link
+              href="https://popsy.co"
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium underline underline-offset-4"
+            >
+              Popsy
+            </Link>
+          </p>
+
+          <div className="flex items-center gap-3">
+            <Link
+              href={siteConfig.links.github}
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium underline underline-offset-4"
+            >
+            </Link>
+            <ModeToggle />
+          </div>
+        </div>
+      </div> */}
     </footer>
   );
 }

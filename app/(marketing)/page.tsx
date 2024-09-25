@@ -8,6 +8,7 @@ import PreviewLanding from "@/components/sections/preview-landing";
 import Testimonials from "@/components/sections/testimonials";
 import WhyHalal from "@/components/sections/why-halal";
 import HalalCard from "@/components/sections/halal-card";
+import HalalAccordion from "@/components/sections/halal-accordion";
 
 export default function IndexPage() {
   return (
@@ -17,6 +18,7 @@ export default function IndexPage() {
       {/* <Powered /> */}
       <WhyHalal />
       <HalalCard />
+      <HalalAccordion />
       {/* <BentoGrid /> */}
       {/* <InfoLanding data={infos[0]} reverse={true} /> */}
       {/* <InfoLanding data={infos[1]} /> */}

@@ -165,9 +165,9 @@ export const Icons = {
       <path
         d="M20.5 25L26.5 19L20.5 13M13.5 25L19.5 19L13.5 13"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <radialGradient
@@ -178,8 +178,8 @@ export const Icons = {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(19.5 0.999998) rotate(90) scale(59)"
         >
-          <stop offset="0.216694" stop-color="#FFBB06" />
-          <stop offset="1" stop-color="#F5B100" stop-opacity="0" />
+          <stop offset="0.216694" stopColor="#FFBB06" />
+          <stop offset="1" stopColor="#F5B100" stopOpacity="0" />
         </radialGradient>
       </defs>
     </svg>
@@ -207,7 +207,7 @@ export const Icons = {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-opacity="0" />
+          <stop offset="1" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>
@@ -234,9 +234,9 @@ export const Icons = {
           width="561.104"
           height="376.2"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -270,8 +270,8 @@ export const Icons = {
           y2="-77"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1A1000" />
-          <stop offset="1" stop-color="#FDC26A" />
+          <stop stopColor="#1A1000" />
+          <stop offset="1" stopColor="#FDC26A" />
         </linearGradient>
       </defs>
     </svg>
@@ -288,7 +288,7 @@ export const Icons = {
         opacity="0.1"
         d="M-22.1812 -4L-22.1813 581.262M51.5056 -4L51.5056 581.262M125.192 -4L125.192 581.262M198.879 -4L198.879 581.262M272.566 -4L272.566 581.262M346.253 -4L346.253 581.262M419.94 -4L419.94 581.262M493.626 -4L493.626 581.262M567.313 -4L567.313 581.262M641 -4L641 581.262M640.181 -3.18027L-23 -3.18033M640.181 70.5923L-23 70.5922M640.181 144.365L-23 144.365M640.181 218.137L-23 218.137M640.181 291.91L-23 291.91M640.181 365.682L-23 365.682M640.181 439.455L-23 439.455M640.181 513.227L-23 513.227M640.181 587L-23 587"
         stroke="black"
-        stroke-width="1.04825"
+        strokeWidth="1.04825"
       />
     </svg>
   ),
@@ -300,13 +300,13 @@ export const Icons = {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_1_112)">
+      <g clipPath="url(#clip0_1_112)">
         <path
           d="M23.6624 8.64976L24.0993 6.95518M27.8038 10.9955L29.311 10.1062M27.8661 15.7578L29.5607 16.1947M28.1826 21.2611C26.1438 26.8237 20.1776 30.0405 14.3196 28.5301C8.08032 26.9213 4.32653 20.5593 5.93526 14.32C7.44567 8.46203 13.1462 4.79503 19.0012 5.70018M18.3976 12.714L22.9165 13.8791L21.7513 18.398M22.4868 13.7684C18.8578 16.8418 13.8428 18.1661 8.88748 16.8884C7.75448 16.5963 6.68453 16.1836 5.68782 15.6676"
           stroke="white"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>
@@ -354,9 +354,9 @@ export const Icons = {
       <path
         d="M600 1C591.443 1 591.443 45.3678 582.886 45.3678C574.329 45.3678 574.685 26.7492 565.771 26.7492C556.858 26.7492 557.571 81.4167 548.657 81.4167C539.743 81.4167 541.17 59.4705 531.543 59.4705C521.916 59.4705 524.412 112.791 514.429 112.791C504.445 112.791 505.871 34.2759 497.314 34.2759C488.757 34.2759 489.47 91.5579 480.2 91.5579C470.93 91.5579 472.356 75.8707 463.086 75.8707C453.815 75.8707 455.242 115.089 445.971 115.089C436.701 115.089 437.771 134.103 428.857 134.103C419.943 134.103 420.657 91.3202 411.743 91.3202C402.829 91.3202 403.899 136.322 394.629 136.322C385.358 136.322 387.498 109.147 377.514 109.147C367.531 109.147 369.314 78.8814 360.4 78.8814C351.486 78.8814 352.556 147.968 343.286 147.968C334.015 147.968 335.442 49.3293 326.171 49.3293C316.901 49.3293 317.971 108.275 309.057 108.275C300.143 108.275 301.926 143.532 291.943 143.532C281.96 143.532 284.455 122.14 274.829 122.14C265.202 122.14 267.698 165.716 257.714 165.716C247.731 165.716 250.227 148.919 240.6 148.919C230.973 148.919 232.756 123.487 223.486 123.487C214.215 123.487 215.642 214.837 206.371 214.837C197.101 214.837 199.24 192.495 189.257 192.495C179.274 192.495 180.7 227.434 172.143 227.434C163.586 227.434 164.655 202.477 155.029 202.477C145.402 202.477 146.828 274.575 137.914 274.575C129.001 274.575 130.783 252.867 120.8 252.867C110.817 252.867 113.312 237.1 103.686 237.1C94.0589 237.1 95.8416 285.429 86.5714 285.429C77.3012 285.429 79.4405 295.571 69.4571 295.571C59.4738 295.571 62.3262 268.871 52.3428 268.871C42.3595 268.871 43.7857 254.61 35.2286 254.61C26.6714 254.61 26.6714 300.958 18.1143 300.958C9.55713 300.958 10.2702 284.637 0.999981 284.637"
         stroke="url(#paint0_linear_1_76)"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <linearGradient
@@ -367,8 +367,8 @@ export const Icons = {
           y2="329.697"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="0.915538" stop-color="white" stop-opacity="0" />
+          <stop stopColor="white" />
+          <stop offset="0.915538" stopColor="white" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>
@@ -383,8 +383,8 @@ export const Icons = {
     >
       <g filter="url(#filter0_dddd_1_125)">
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M65.1015 5.23033C66.0291 5.09607 66.9711 5.09607 67.8987 5.23033C68.9676 5.38506 69.9623 5.76148 70.7522 6.06036L70.9638 6.14026L97.8191 16.2273C100.84 17.357 103.493 18.349 105.535 20.1525C107.323 21.7302 108.699 23.7201 109.547 25.9503C110.515 28.4996 110.511 31.336 110.506 34.5658L110.506 58.6719C110.506 72.516 102.989 84.058 94.8638 92.537C86.6841 101.073 77.3255 107.102 72.3768 109.994L72.1764 110.111C71.2733 110.643 70.1012 111.332 68.5506 111.665C67.282 111.938 65.7182 111.938 64.4496 111.665C62.8991 111.332 61.7269 110.642 60.8238 110.111L60.8237 110.111L60.6234 109.994C55.6747 107.102 46.3161 101.073 38.1364 92.537C30.0112 84.058 22.4946 72.516 22.4946 58.6719L22.494 34.5658C22.4893 31.336 22.4852 28.4996 23.4537 25.9503C24.3009 23.7201 25.6776 21.7302 27.4648 20.1525C29.5077 18.349 32.1604 17.357 35.1811 16.2273L62.0364 6.14026L62.248 6.06037C63.0378 5.76148 64.0326 5.38507 65.1015 5.23033ZM58.5616 30.973L58.6443 30.9735H72.2495C73.0248 30.9735 73.7508 31.3431 74.1924 31.9626C74.6341 32.5822 74.7351 33.3728 74.4629 34.0785L70.3419 44.7621L83.8422 44.7621C84.4663 44.762 85.0835 44.7619 85.5819 44.8051C86.0323 44.8441 86.9457 44.9466 87.7119 45.5758C88.572 46.2822 89.036 47.3437 88.9619 48.4359C88.896 49.4089 88.3379 50.1193 88.0541 50.4616C87.7401 50.8403 87.3116 51.2722 86.8784 51.7089L57.9952 80.8286C57.238 81.5921 56.0416 81.7526 55.1 81.217C54.1584 80.6815 53.716 79.589 54.0295 78.5731L60.2081 58.5506L48.6414 58.5506H48.6414C48.2012 58.5508 47.7246 58.5509 47.3228 58.5151C46.9015 58.4776 46.199 58.3787 45.5365 57.9283C44.7373 57.3848 44.2036 56.5453 44.0611 55.6073C43.9429 54.8298 44.1661 54.1747 44.32 53.7916C44.4668 53.4263 44.6801 53.0118 44.8771 52.6291L54.8386 33.2602L54.8751 33.188C55.0065 32.926 55.2792 32.3825 55.725 31.958C56.1005 31.6005 56.553 31.3285 57.0499 31.1619C57.6398 30.9641 58.2617 30.9701 58.5616 30.973Z"
           fill="url(#paint0_linear_1_125)"
         />
@@ -401,9 +401,9 @@ export const Icons = {
           width="131.324"
           height="185.966"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -487,8 +487,8 @@ export const Icons = {
           y2="163.835"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#291E00" />
-          <stop offset="1" stop-color="#FFBB06" />
+          <stop stopColor="#291E00" />
+          <stop offset="1" stopColor="#FFBB06" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_1_125"
@@ -498,8 +498,8 @@ export const Icons = {
           y2="163.835"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#855F00" />
-          <stop offset="1" stop-color="#AB7D04" />
+          <stop stopColor="#855F00" />
+          <stop offset="1" stopColor="#AB7D04" />
         </linearGradient>
       </defs>
     </svg>
@@ -518,9 +518,9 @@ export const Icons = {
         x2="1.00001"
         y2="331"
         stroke="url(#paint0_linear_1_77)"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-dasharray="4 4"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeDasharray="4 4"
       />
       <defs>
         <linearGradient
@@ -531,9 +531,9 @@ export const Icons = {
           y2="332"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BDB2A7" stop-opacity="0" />
-          <stop offset="0.359816" stop-color="#BDB2A7" />
-          <stop offset="1" stop-color="#BDB2A7" stop-opacity="0" />
+          <stop stopColor="#BDB2A7" stopOpacity="0" />
+          <stop offset="0.359816" stopColor="#BDB2A7" />
+          <stop offset="1" stopColor="#BDB2A7" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>

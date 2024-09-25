@@ -19,13 +19,20 @@ export default function WhyHalal() {
             "linear-gradient(rgba(255, 199, 114, 0.2) 0%, #F7F7F8 100%)",
         }}
       >
-        <div className="w-[95%] rounded-2xl shadow-custom bg-white shadow-custom md:w-[98%] lg:w-[98%]">
+        <div className="shadow-custom w-[95%] rounded-2xl bg-white md:w-[98%] lg:w-[98%]">
           <MaxWidthWrapper className="mt-14">
             <HeaderSection title="Why Halal Defi?" />
+
             <div className="relative z-10 mt-20 grid grid-cols-7 gap-3">
               <div className="relative col-span-full flex overflow-hidden rounded-2xl bg-[#F8F8F8] lg:col-span-7">
-                <div className="absolute h-full w-full">
-                  <div className="absolute inset-0 z-0">
+                <div
+                  className="card relative h-full w-full overflow-hidden rounded-3xl"
+                  style={{
+                    background:
+                      "radial-gradient(circle at top right, #402d21 20%, #000000 100%)",
+                  }}
+                >
+                  <div className="absolute bottom-0 left-0 right-0 top-0">
                     <Image
                       src="/_static/landing/vector2.png"
                       alt="Background"
@@ -34,62 +41,56 @@ export default function WhyHalal() {
                       quality={100}
                     />
                   </div>
-                  <div
-                    className="absolute inset-0 z-10"
-                    style={{
-                      background:
-                        "radial-gradient(circle at top right,  #402d21 20%, #000000 100%)",
-                    }}
-                  ></div>
-                </div>
-                <div className="z-20 flex w-full flex-col flex-wrap p-16 lg:flex-row">
-                  <div className="w-full lg:w-3/5">
-                    <p className="text-4xl text-white lg:w-3/5">
-                      Early Access to High-Growth Web3 Projects
-                    </p>
-                    <p className="mt-10 text-sm text-white">
-                      As a micro venture fund, Halal DeFi gives you early-stage
-                      access to blockchain and decentralized finance (DeFi)
-                      projects that are typically reserved for institutional
-                      investors. This means you can invest in promising projects
-                      before they reach the mainstream market.
-                    </p>
-                    <Link
-                      href={""}
-                      target="_blank"
-                      rel="noreferrer"
-                      className={cn(
-                        buttonVariants({
-                          variant: "outline",
-                          size: "lg",
-                          rounded: "full",
-                        }),
-                        "px-5",
-                        "mt-10",
-                        "bg-white",
-                      )}
-                    >
-                      <p>
-                        <span className="sm:inline-block">
-                          Try it for free!
-                        </span>
+                  <div className="z-20 flex w-full flex-col flex-wrap p-16 lg:flex-row">
+                    <div className="w-full lg:w-3/5">
+                      <p className="text-4xl text-white lg:w-3/5">
+                        Early Access to High-Growth Web3 Projects
                       </p>
-                    </Link>
-                  </div>
-                  <div className="relative w-full lg:w-2/5">
-                    <div className="absolute top-0">
-                      <Icons.line_chart />
+                      <p className="mt-10 text-sm text-white">
+                        As a micro venture fund, Halal DeFi gives you
+                        early-stage access to blockchain and decentralized
+                        finance (DeFi) projects that are typically reserved for
+                        institutional investors. This means you can invest in
+                        promising projects before they reach the mainstream
+                        market.
+                      </p>
+                      <Link
+                        href={""}
+                        target="_blank"
+                        rel="noreferrer"
+                        className={cn(
+                          buttonVariants({
+                            variant: "outline",
+                            size: "lg",
+                            rounded: "full",
+                          }),
+                          "px-5",
+                          "mt-10",
+                          "bg-white",
+                        )}
+                      >
+                        <p>
+                          <span className="sm:inline-block">
+                            Try it for free!
+                          </span>
+                        </p>
+                      </Link>
                     </div>
-                    <div className="absolute right-56 top-0">
-                      <Icons.dotted_y_line />
-                    </div>
-                    <div className="absolute right-20 top-24 h-10 w-32">
-                      <Image
-                        src="/_static/landing/halal-widget2.png"
-                        alt="Background"
-                        layout="fill"
-                        quality={100}
-                      />
+                    <div className="relative w-full lg:w-2/5">
+                      <div className="absolute top-0">
+                        <Icons.line_chart />
+                      </div>
+                      <div className="absolute right-56 top-0">
+                        <Icons.dotted_y_line />
+                      </div>
+                      <div className="absolute right-20 top-24 h-10 w-32">
+                        <Image
+                          src="/_static/landing/halal-widget2.png"
+                          alt="Background"
+                          layout="fill"
+                          quality={100}
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -105,7 +106,7 @@ export default function WhyHalal() {
                     <Icons.x_grid />
                   </div>
                 </div>
-                <div className="relative z-10 mb-6 block space-y-1.5 px-6 lg:flex lg:items-end lg:justify-center">
+                <div className="relative z-10 mb-6 mt-6 block space-y-1.5 px-6 lg:flex lg:items-end lg:justify-center">
                   <h1 className="mr-16 text-4xl font-semibold text-foreground">
                     Ethical Investments
                   </h1>
@@ -305,7 +306,7 @@ export default function WhyHalal() {
 
               <div className="relative col-span-full flex overflow-hidden rounded-2xl lg:col-span-7">
                 <div className="z-20 flex w-full flex-col flex-wrap py-16 lg:flex-row">
-                  <div className="w-full lg:w-3/5">
+                  <div className="w-full lg:w-2/5">
                     <p className="text-4xl text-black lg:w-3/5">
                       Early Access to High-Growth Web3 Projects
                     </p>
@@ -321,26 +322,49 @@ export default function WhyHalal() {
                       prefetch={true}
                       className={cn(
                         buttonVariants({ rounded: "full" }),
-                        "mt-10 gap-2 pl-2 p-4",
+                        "mt-10 gap-2 p-4 pl-2",
                       )}
                     >
                       <span> Invest in $halal</span>
                     </Link>
                   </div>
-                  <div className="relative w-full lg:w-2/5">
-                    <div className="absolute top-0">
-                      <Icons.line_chart />
-                    </div>
-                    <div className="absolute right-56 top-0">
-                      <Icons.dotted_y_line />
-                    </div>
-                    <div className="absolute right-20 top-24 h-10 w-32">
-                      <Image
-                        src="/_static/landing/halal-widget2.png"
-                        alt="Background"
-                        layout="fill"
-                        quality={100}
-                      />
+                  <div className="relative h-full w-full rounded-3xl lg:w-3/5">
+                    <div
+                      className="card relative h-full w-full overflow-hidden rounded-3xl"
+                      style={{
+                        background:
+                          "radial-gradient(circle at top right, #402d21 20%, #000000 100%)",
+                      }}
+                    >
+                      <div className="absolute bottom-0 left-0 right-0 top-0">
+                        <Image
+                          src="/_static/landing/vector2.png"
+                          alt="Background"
+                          layout="fill"
+                          objectFit="cover"
+                          quality={100}
+                        />
+                      </div>
+                      <div className="content relative flex h-full justify-center">
+                        <div className="right flex items-center justify-center">
+                          <Image
+                            src="/_static/landing/halal-Token.png"
+                            alt="Halal Token"
+                            width={250}
+                            height={250}
+                            quality={100}
+                          />
+                        </div>
+                        <div className="left flex items-center justify-center">
+                          <Image
+                            src="/_static/landing/buy-halal.png"
+                            alt="Buy Halal"
+                            width={250}
+                            height={250}
+                            quality={100}
+                          />
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>

@@ -160,6 +160,7 @@ export const getBlurDataURL = async (url: string | null) => {
     );
     const buffer = await response.arrayBuffer();
     const base64 = Buffer.from(buffer).toString("base64");
+    console.log(base64)
 
     return `data:image/png;base64,${base64}`;
   } catch (error) {

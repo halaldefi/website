@@ -18,20 +18,22 @@ export const siteConfig: SiteConfig = {
 export const footerLinks: SidebarNavItem[] = [
   {
     title: "",
+    id: 1,
     items: [
-      { title: "Home", href: "#" },
-      { title: "Trade", href: "#" },
-      { title: "About Us", href: "/terms" },
-      { title: "Tokenomics", href: "/privacy" },
+      { title: "Home", href: "#", id: 1 },
+      { title: "Trade", href: "#", id: 2 },
+      { title: "About Us", href: "#", id: 3 },
+      { title: "Tokenomics", href: "#", id: 4 },
     ],
   },
   {
     title: "",
+    id: 2,
     items: [
-      { title: "Blog", href: "#" },
-      { title: "FAQs", href: "#" },
-      { title: "Terms of use", href: "#" },
-      { title: "Contact Us", href: "#" },
+      { title: "Blog", href: "#", id: 5 },
+      { title: "FAQs", href: "#", id: 6 },
+      { title: "Terms of use", href: "#", id: 7 },
+      { title: "Contact Us", href: "#", id: 8 },
     ],
   },
 ];
