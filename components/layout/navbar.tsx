@@ -49,7 +49,7 @@ export function NavBar({ scroll = false }: NavBarProps) {
           </Link> */}
 
         <Image
-          src="/_static/landing/logo.png"
+          src="/_static/landing/Logo.png"
           alt="Background"
           width={40}
           height={40}

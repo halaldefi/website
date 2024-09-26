@@ -12,7 +12,7 @@ export default function HeroLanding() {
       {/* Background layers */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/_static/landing/vector.png"
+          src="/_static/landing/Vector.png"
           alt="Background"
           layout="fill"
           objectFit="cover"

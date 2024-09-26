@@ -15,7 +15,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
         <div className="col-span-full flex flex-col sm:col-span-1 lg:col-span-4">
           <div>
             <Image
-              src="/_static/landing/logo.png"
+              src="/_static/landing/Logo.png"
               alt="Background"
               width={40}
               height={40}
@@ -54,7 +54,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
           <NewsletterForm />
         </div>
       </div>
-      <div className="border-t py-4">
+      {/* <div className="border-t py-4">
         <div className="container flex max-w-6xl items-center justify-between">
           <p className="text-left text-sm text-muted-foreground">
             Built by{" "}
@@ -97,7 +97,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
             <ModeToggle />
           </div>
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 }
