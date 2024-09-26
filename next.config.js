@@ -18,6 +18,7 @@ const nextConfig = {
       },
     ],
   },
+  distDir: 'out', // Change the default output directory to "out" or another name of your choice
 };
 
 module.exports = nextConfig;
