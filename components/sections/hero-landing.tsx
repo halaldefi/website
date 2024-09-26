@@ -57,7 +57,7 @@ export default function HeroLanding() {
 
         <div className="flex justify-center space-x-2 md:space-x-4">
           <Link
-            href="/pricing"
+            href="#"
             prefetch={true}
             className={cn(
               buttonVariants({ rounded: "full" }),

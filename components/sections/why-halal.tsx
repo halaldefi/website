@@ -318,7 +318,7 @@ export default function WhyHalal() {
                       before they reach the mainstream market.
                     </p>
                     <Link
-                      href="/pricing"
+                      href="#"
                       prefetch={true}
                       className={cn(
                         buttonVariants({ rounded: "full" }),
