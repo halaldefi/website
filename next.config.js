@@ -2,21 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "avatars.githubusercontent.com",
-      },
-      {
-        protocol: "https",
-        hostname: "lh3.googleusercontent.com",
-      },
-      {
-        protocol: "https",
-        hostname: "randomuser.me",
-      },
-    ],
+  webpack: (config, { isServer }) => {
+    return config;
   },
   outputFileTracing: false,
 };
