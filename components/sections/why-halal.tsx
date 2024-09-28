@@ -242,7 +242,7 @@ export default function WhyHalal() {
                     />
                   </div>
                   <div className="absolute z-10 mb-6 space-y-1.5 px-6 lg:bottom-0">
-                    <h1 className="mb-10 mr-16 text-4xl mt-6 font-semibold text-foreground lg:w-3/5">
+                    <h1 className="mb-10 mr-16 mt-6 text-4xl font-semibold text-foreground lg:w-3/5">
                       Global Reach, Shared Values
                     </h1>
                     <p className="w-[70%] text-left text-sm text-muted-foreground">
@@ -305,7 +305,7 @@ export default function WhyHalal() {
               </div>
 
               <div className="relative col-span-full flex overflow-hidden rounded-2xl lg:col-span-7">
-                <div className="z-20 flex w-full flex-col flex-wrap py-8 lg:py-16 lg:flex-row">
+                <div className="z-20 flex w-full flex-col flex-wrap py-8 lg:flex-row lg:py-16">
                   <div className="w-full lg:w-2/4">
                     <p className="text-6xl font-semibold text-black">
                       No Long Lock-Ups, Full Control
