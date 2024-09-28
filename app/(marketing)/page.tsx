@@ -8,8 +8,8 @@ export default function IndexPage() {
     <>
       <HeroLanding />
       <WhyHalal />
-      <HalalCard />
       <HalalAccordion />
+      <HalalCard />
     </>
   );
 }

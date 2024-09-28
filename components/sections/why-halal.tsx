@@ -242,7 +242,7 @@ export default function WhyHalal() {
                     />
                   </div>
                   <div className="absolute z-10 mb-6 space-y-1.5 px-6 lg:bottom-0">
-                    <h1 className="mb-10 mr-16 text-4xl font-semibold text-foreground lg:w-3/5">
+                    <h1 className="mb-10 mr-16 text-4xl mt-6 font-semibold text-foreground lg:w-3/5">
                       Global Reach, Shared Values
                     </h1>
                     <p className="w-[70%] text-left text-sm text-muted-foreground">
@@ -305,17 +305,19 @@ export default function WhyHalal() {
               </div>
 
               <div className="relative col-span-full flex overflow-hidden rounded-2xl lg:col-span-7">
-                <div className="z-20 flex w-full flex-col flex-wrap py-16 lg:flex-row">
-                  <div className="w-full lg:w-2/5">
-                    <p className="text-4xl text-black lg:w-3/5">
-                      Early Access to High-Growth Web3 Projects
+                <div className="z-20 flex w-full flex-col flex-wrap py-8 lg:py-16 lg:flex-row">
+                  <div className="w-full lg:w-2/4">
+                    <p className="text-6xl font-semibold text-black">
+                      No Long Lock-Ups, Full Control
                     </p>
                     <p className="mt-10 text-sm text-black">
-                      As a micro venture fund, Halal DeFi gives you early-stage
-                      access to blockchain and decentralized finance (DeFi)
-                      projects that are typically reserved for institutional
-                      investors. This means you can invest in promising projects
-                      before they reach the mainstream market.
+                      Unlike traditional venture capital,{" "}
+                      <span className="font-bold">
+                        which locks up your funds for years, Halal DeFi lets you
+                        buy or sell $Halal tokens anytime on decentralized
+                        exchanges,
+                      </span>{" "}
+                      providing liquidity and flexibility whenever you need it
                     </p>
                     <Link
                       href="#"
@@ -328,39 +330,15 @@ export default function WhyHalal() {
                       <span> Invest in $halal</span>
                     </Link>
                   </div>
-                  <div className="relative size-full rounded-3xl lg:w-3/5">
-                    <div
-                      className="card relative size-full overflow-hidden rounded-3xl"
-                      style={{
-                        background:
-                          "radial-gradient(circle at top right, #402d21 20%, #000000 100%)",
-                      }}
-                    >
-                      <div className="absolute inset-0">
-                        <Image
-                          src="/_static/landing/vector2.png"
-                          alt="Background"
-                          layout="fill"
-                          objectFit="cover"
-                          quality={100}
-                        />
-                      </div>
+                  <div className="relative size-full rounded-3xl lg:w-2/4">
+                    <div className="card relative size-full overflow-hidden rounded-3xl">
                       <div className="content relative flex h-full justify-center">
-                        <div className="right flex items-center justify-center">
-                          <Image
-                            src="/_static/landing/halal-Token.png"
-                            alt="Halal Token"
-                            width={250}
-                            height={250}
-                            quality={100}
-                          />
-                        </div>
                         <div className="left flex items-center justify-center">
                           <Image
-                            src="/_static/landing/buy-halal.png"
+                            src="/_static/landing/frame3.png"
                             alt="Buy Halal"
-                            width={250}
-                            height={250}
+                            width={600}
+                            height={600}
                             quality={100}
                           />
                         </div>

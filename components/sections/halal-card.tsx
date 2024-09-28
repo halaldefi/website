@@ -29,7 +29,7 @@ export default function HalalCard () {
                 </div>
                 <div className="z-20 flex w-full flex-col flex-wrap p-16 lg:flex-row">
                   <div className="w-full lg:w-2/5">
-                    <p className="text-7xl text-white">
+                    <p className="text-6xl font-semibold text-white">
                       Get to know Halal.io better
                     </p>
                     <Link
