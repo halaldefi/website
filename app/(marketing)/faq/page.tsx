@@ -46,7 +46,7 @@ export default async function FAQ() {
         <FaqAccordion />
       </div>
       <MaxWidthWrapper>
-        <section className="relative overflow-hidden py-12 sm:py-12 lg:py-12 rounded-xl">
+        <section className="relative overflow-hidden rounded-xl py-12 sm:py-12 lg:py-12">
           {/* Background layers */}
           <div className="absolute inset-0 z-10">
             <Image
@@ -68,7 +68,7 @@ export default async function FAQ() {
           {/* Content */}
           <div className="container relative z-20 flex max-w-5xl flex-col items-center gap-5 text-center">
             <h1 className="text-balance font-urban text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-[50px]">
-            Have a more Questions?
+              Have a more Questions?
             </h1>
 
             <div className="flex justify-center space-x-2 md:space-x-4">
@@ -86,7 +86,9 @@ export default async function FAQ() {
                 )}
               >
                 <p>
-                  <span className="sm:inline-block  text-black">$invest in Halal</span>
+                  <span className="text-black sm:inline-block">
+                    $invest in Halal
+                  </span>
                 </p>
               </Link>
               <Link
@@ -103,7 +105,9 @@ export default async function FAQ() {
                 )}
               >
                 <p>
-                  <span className="sm:inline-block text-white hover:text-black">Contact Us</span>
+                  <span className="text-white hover:text-black sm:inline-block">
+                    Contact Us
+                  </span>
                 </p>
               </Link>
             </div>
