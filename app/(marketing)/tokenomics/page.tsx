@@ -42,6 +42,7 @@ export default async function Tokenomics() {
           </h1>
         </div>
       </section>
+
       <div>
         <MaxWidthWrapper>
           <div className="flex flex-col rounded-xl bg-[#F7F6F6] md:flex-row md:items-stretch">
@@ -49,30 +50,47 @@ export default async function Tokenomics() {
               <div className="align-center flex flex-row justify-center text-5xl font-semibold">
                 Token Supply and Distribution
               </div>
-              <div className="text-md mt-6 font-normal">
-                <span>
-                  <Icons.coins className="mr-3 inline" /> Total Supply: 100
-                  million $Halal tokens.
-                </span>{" "}
-              </div>
-              <div className="text-md mt-6 font-normal">
-                <span>
-                  <Icons.chart_breakout_circle_black className="mr-3 inline text-black" />{" "}
-                  <span className="font-bold"> 85% for Retail Investors: </span>{" "}
-                  Tokens are sold in phases over the next two years, ensuring
-                  wide access to the community.
-                </span>{" "}
-              </div>
-              <div className="text-md mt-6 font-normal">
-                <span>
+              <div className="text-md mt-6 flex font-normal">
+                <div>
                   <Icons.coins className="mr-3 inline" />{" "}
-                  <span className="font-bold"> 15% Liquidity Pool: </span>
-                  Locked in decentralized exchanges (Uniswap, PancakeSwap, Halal
-                  DEX) to ensure consistent liquidity for trading.
-                </span>{" "}
+                </div>
+                <div>
+                  {" "}
+                  <span className="font-bold">Total Supply: .</span> 100 million
+                  $Halal tokens
+                </div>
+              </div>
+              <div className="text-md mt-6 flex font-normal">
+                <div>
+                  <Icons.chart_breakout_circle_black className="mr-3 text-black" />{" "}
+                </div>
+                <div>
+                  {" "}
+                  <span>
+                    <span className="font-bold">
+                      {" "}
+                      85% for Retail Investors:{" "}
+                    </span>{" "}
+                    Tokens are sold in phases over the next two years, ensuring
+                    wide access to the community.
+                  </span>{" "}
+                </div>
+              </div>
+              <div className="text-md mt-6 flex font-normal">
+                <div>
+                  <Icons.coins className="mr-3" />{" "}
+                </div>
+                <div>
+                  {" "}
+                  <span>
+                    <span className="font-bold"> 15% Liquidity Pool: </span>
+                    Locked in decentralized exchanges (Uniswap, PancakeSwap,
+                    Halal DEX) to ensure consistent liquidity for trading.
+                  </span>{" "}
+                </div>
               </div>
             </div>
-            <div className="relative min-h-72 w-full flex-1 mt-3 md:w-1/2">
+            <div className="relative mt-3 min-h-72 w-full flex-1 md:w-1/2">
               <Image
                 src="/_static/tokenomics/frame1.png"
                 alt="Background"
@@ -85,8 +103,169 @@ export default async function Tokenomics() {
           </div>
         </MaxWidthWrapper>
       </div>
+
+      <div>
+        <MaxWidthWrapper className="mt-4">
+          <div className="flex flex-col rounded-xl bg-[#F7F6F6] md:flex-row md:items-stretch">
+            <div className="relative mt-3 min-h-72 w-full flex-1 md:w-1/2">
+              <Image
+                src="/_static/tokenomics/frame2.png"
+                alt="Background"
+                layout="fill"
+                objectFit="contain"
+                quality={100}
+                className="size-5 rounded-xl"
+              />
+            </div>
+            <div className="w-full flex-1 p-8 md:w-1/2">
+              <div className="align-center flex flex-row justify-center text-5xl font-semibold">
+                No Team Tokens or Airdrops
+              </div>
+              <div className="text-md mt-6 flex font-normal">
+                <div>
+                  <Icons.users_x className="mr-3 inline" />
+                </div>
+                <div>
+                  {" "}
+                  <span>
+                    <span className="font-bold"> No Team Tokens: </span> We do
+                    not allocate tokens to the team, aligning the interests of
+                    the project with the community.
+                  </span>{" "}
+                </div>
+              </div>
+              <div className="text-md mt-6 flex font-normal">
+                <div>
+                  <Icons.gift className="mr-3" />
+                </div>
+                <div>
+                  {" "}
+                  <span>
+                    <span className="font-bold"> No Airdrops: </span> All tokens
+                    must be purchased, ensuring the community owns and controls
+                    the token supply.
+                  </span>{" "}
+                </div>
+              </div>
+              <div className="text-md mt-6 flex font-normal">
+                <div>
+                  <Icons.wallet className="mr-3 inline" />
+                </div>
+                <div>
+                  <span>
+                    <span className="font-bold">
+                      {" "}
+                      Responsible Venture Fund:
+                    </span>
+                    Responsible Venture Fund: We are a responsible venture
+                    capital project, not a memecoin. Our tokens serve real
+                    utility and contribute to ethical investment in Web3.
+                  </span>{" "}
+                </div>
+              </div>
+            </div>
+          </div>
+        </MaxWidthWrapper>
+      </div>
+
+      <div>
+        <MaxWidthWrapper className="mt-4">
+          <div className="flex flex-col rounded-xl bg-[#F7F6F6] md:flex-row md:items-stretch">
+            <div className="w-full flex-1 p-8 md:w-1/2">
+              <div className="align-center flex flex-row justify-center text-5xl font-semibold">
+                Investment Strategy
+              </div>
+              <div className="text-md mt-6 flex font-normal">
+                <div className="mr-3">
+                  <Icons.pie_chart className="mr-3" />
+                </div>
+                <div>
+                  {" "}
+                  <span>
+                    <span className="font-bold">Strategic Investments: </span>
+                    <li>
+                      Funds from token sales are allocated to high-potential
+                      Web3 projects.{" "}
+                    </li>
+                    <li>
+                      We conduct rigorous research and work closely with project
+                      founders to identify disruptive opportunities.
+                    </li>
+                  </span>{" "}
+                </div>
+              </div>
+              <div className="text-md mt-6 flex font-normal">
+                <div className="mr-3">
+                  <Icons.bar_chart className="mr-3" />
+                </div>
+                <div>
+                  {" "}
+                  <span>
+                    <span className="font-bold"> Active Trading: </span>
+                    <li>
+                      We engage in active trading on decentralized exchanges to
+                      capitalize on market fluctuations, generating additional
+                      value for $Halal holders.
+                    </li>
+                  </span>{" "}
+                </div>
+              </div>
+            </div>
+            <div className="relative mt-3 min-h-72 w-full flex-1 md:w-1/2">
+              <Image
+                src="/_static/tokenomics/frame3.png"
+                alt="Background"
+                layout="fill"
+                objectFit="contain"
+                quality={100}
+                className="size-5 rounded-xl"
+              />
+            </div>
+          </div>
+        </MaxWidthWrapper>
+      </div>
+
+      <div>
+        <MaxWidthWrapper className="mt-4">
+          <div className="flex flex-col rounded-xl bg-[#F7F6F6] md:flex-row md:items-stretch">
+            <div className="relative mt-3 min-h-72 w-full flex-1 md:w-1/2">
+              <Image
+                src="/_static/tokenomics/frame4.png"
+                alt="Background"
+                layout="fill"
+                objectFit="contain"
+                quality={100}
+                className="size-5 rounded-xl"
+              />
+            </div>
+            <div className="w-full flex-1 p-8 md:w-1/2">
+              <div className="align-center flex flex-row justify-center text-5xl font-semibold">
+                Token Value Proposition
+              </div>
+              <div className="text-md mt-6 font-normal">
+                <span>
+                  <Icons.arrow_right_up className="mr-3 inline" />
+                  <span className="font-bold"> Value Growth: </span>
+                  The value of $Halal tokens grows in line with the performance
+                  of our investments and trading activities.
+                </span>{" "}
+              </div>
+              <div className="text-md mt-6 font-normal">
+                <span>
+                  <Icons.coins className="mr-3 inline" />{" "}
+                  <span className="font-bold"> Market Flexibility: </span>
+                  $Halal tokens can be traded on major decentralized exchanges,
+                  including Uniswap, Matcha, and Halal DEX. This ensures
+                  liquidity and allows for unrestricted trading.
+                </span>{" "}
+              </div>
+            </div>
+          </div>
+        </MaxWidthWrapper>
+      </div>
+
       <MaxWidthWrapper>
-        <section className="relative overflow-hidden rounded-xl py-12 sm:py-12 lg:py-12">
+        <section className="relative my-10 overflow-hidden rounded-xl py-12 sm:py-12 lg:py-12">
           {/* Background layers */}
           <div className="absolute inset-0 z-10">
             <Image
