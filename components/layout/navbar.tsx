@@ -1,6 +1,7 @@
 "use client";
 
 import { useContext } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { useSelectedLayoutSegment } from "next/navigation";
 
@@ -13,7 +14,6 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { ModalContext } from "@/components/modals/providers";
 import { Icons } from "@/components/shared/icons";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
-import Image from "next/image";
 
 interface NavBarProps {
   scroll?: boolean;
@@ -26,7 +26,6 @@ export function NavBar({ scroll = false }: NavBarProps) {
 
   const selectedLayout = useSelectedLayoutSegment();
   const documentation = selectedLayout === "docs";
-
 
   const links = marketingConfig.mainNav;
 
@@ -41,22 +40,16 @@ export function NavBar({ scroll = false }: NavBarProps) {
         large={documentation}
       >
         <div className="flex gap-6 md:gap-10">
-          {/* <Link href="/" className="flex items-center space-x-1.5">
-            <Icons.logo />
-            <span className="font-urban text-xl font-bold">
-              {siteConfig.name}
-            </span>
-          </Link> */}
-
-        <Image
-          src="/_static/landing/Logo.png"
-          alt="Background"
-          width={40}
-          height={40}
-          objectFit="cover"
-          quality={100}
-        />
-
+          <Link href="/" className="flex items-center space-x-1.5">
+            <Image
+              src="/_static/landing/Logo.png"
+              alt="Background"
+              width={40}
+              height={40}
+              objectFit="cover"
+              quality={100}
+            />
+          </Link>
 
           {links && links.length > 0 ? (
             <nav className="hidden gap-6 md:flex">

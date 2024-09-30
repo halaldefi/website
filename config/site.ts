@@ -20,10 +20,10 @@ export const footerLinks: SidebarNavItem[] = [
     title: "",
     id: 1,
     items: [
-      { title: "Home", href: "#", id: 1 },
-      { title: "Trade", href: "#", id: 2 },
-      { title: "About Us", href: "#", id: 3 },
-      { title: "Tokenomics", href: "#", id: 4 },
+      { title: "Home", href: "/", id: 1 },
+      { title: "Trade", href: "trade", id: 2 },
+      { title: "About Us", href: "about", id: 3 },
+      { title: "Tokenomics", href: "tokenomics", id: 4 },
     ],
   },
   {
@@ -31,8 +31,8 @@ export const footerLinks: SidebarNavItem[] = [
     id: 2,
     items: [
       { title: "Blog", href: "#", id: 5 },
-      { title: "FAQs", href: "#", id: 6 },
-      { title: "Terms of Use", href: "#", id: 7 },
+      { title: "FAQs", href: "faq", id: 6 },
+      { title: "Terms of Use", href: "terms", id: 7 },
       { title: "Contact Us", href: "#", id: 8 },
     ],
   },

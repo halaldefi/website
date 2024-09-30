@@ -144,6 +144,10 @@ const config = {
     },
   },
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
+  safelist: [
+    'bg-red-500',
+    'text-center',
+  ],
 } satisfies Config;
 
 export default config;

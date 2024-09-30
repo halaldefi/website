@@ -4,22 +4,22 @@ export const marketingConfig: MarketingConfig = {
   mainNav: [
     {
       title: "Trade",
-      href: "#",
+      href: "trade",
       id: 1
     },
     {
       title: "About",
-      href: "#",
+      href: "about",
       id: 2
     },
     {
       title: "Tokenomics",
-      href: "#",
+      href: "tokenomics",
       id: 3
     },
     {
       title: "FAQs",
-      href: "#",
+      href: "faq",
       id: 4
     },
     {

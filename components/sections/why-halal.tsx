@@ -100,14 +100,14 @@ export default function WhyHalal() {
               <div className="relative col-span-full flex overflow-hidden rounded-2xl bg-[#F8F8F8] lg:col-span-3">
                 <div className="relative hidden h-72 lg:block">
                   <div className="absolute left-0 top-0 flex items-center">
-                    <Icons.market_up />
+                    <Icons.market_up className="lg:size-64 xl:size-96"/>
                   </div>
                   <div className="absolute left-0 top-5 flex items-center opacity-70">
                     <Icons.x_grid />
                   </div>
                 </div>
                 <div className="relative z-10 my-6 block space-y-1.5 px-6 lg:flex lg:items-end lg:justify-center">
-                  <h1 className="mr-16 text-4xl font-semibold text-foreground">
+                  <h1 className="lg:mr-4 xl:mr-16 xl:text-4xl lg:text-2xl  font-semibold text-foreground">
                     Ethical Investments
                   </h1>
                   <p className="text-left text-sm text-muted-foreground">
