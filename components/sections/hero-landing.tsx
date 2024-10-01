@@ -22,18 +22,19 @@ export default function HeroLanding() {
       <div
         className="absolute inset-0 z-10"
         style={{
-          background: 'radial-gradient(circle at bottom center, rgba(255, 199, 114, 0.3) 0%, rgba(255, 199, 114, 0.4) 5%, rgba(255, 255, 255, 0) 70%)',
+          background:
+            "radial-gradient(circle at bottom center, rgba(255, 199, 114, 0.3) 0%, rgba(255, 199, 114, 0.4) 5%, rgba(255, 255, 255, 0) 70%)",
           transform: "scale(1.5)",
         }}
       ></div>
-      
+
       {/* Content */}
       <div className="container relative z-20 flex max-w-5xl flex-col items-center gap-5 text-center">
         <Link
-          href="https://twitter.com/miickasmt/status/1810465801649938857"
+          href="/"
           className={cn(
             buttonVariants({ variant: "outline", size: "sm", rounded: "full" }),
-            "px-4",
+            " cursor-default px-4" ,
           )}
           target="_blank"
         >
@@ -41,7 +42,7 @@ export default function HeroLanding() {
             <Icons.solid className="ml-2 size-3.5" />
           </span>
           <span className="hidden md:flex">
-            Lorem ipsum dolor sit amet consectetur
+            Start investing with just $10. Open to everyone.
           </span>
         </Link>
 

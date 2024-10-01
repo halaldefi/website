@@ -47,7 +47,7 @@ export default async function Tokenomics() {
         <MaxWidthWrapper>
           <div className="flex flex-col rounded-xl bg-[#F7F6F6] md:flex-row md:items-stretch">
             <div className="w-full flex-1 p-8 md:w-1/2">
-              <div className="align-center flex flex-row justify-center text-5xl font-semibold">
+              <div className="align-center flex flex-row justify-center text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[60px]">
                 Token Supply and Distribution
               </div>
               <div className="text-md mt-6 flex font-normal">
@@ -118,7 +118,7 @@ export default async function Tokenomics() {
               />
             </div>
             <div className="w-full flex-1 p-8 md:w-1/2">
-              <div className="align-center flex flex-row justify-center text-5xl font-semibold">
+              <div className="align-center flex flex-row justify-center text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[60px]">
                 No Team Tokens or Airdrops
               </div>
               <div className="text-md mt-6 flex font-normal">
@@ -172,7 +172,7 @@ export default async function Tokenomics() {
         <MaxWidthWrapper className="mt-4">
           <div className="flex flex-col rounded-xl bg-[#F7F6F6] md:flex-row md:items-stretch">
             <div className="w-full flex-1 p-8 md:w-1/2">
-              <div className="align-center flex flex-row justify-center text-5xl font-semibold">
+              <div className="align-center flex flex-row justify-center text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[60px]">
                 Investment Strategy
               </div>
               <div className="text-md mt-6 flex font-normal">
@@ -226,7 +226,7 @@ export default async function Tokenomics() {
       </div>
 
       <div>
-        <MaxWidthWrapper className="mt-4">
+        <MaxWidthWrapper className="mb-10 mt-4">
           <div className="flex flex-col rounded-xl bg-[#F7F6F6] md:flex-row md:items-stretch">
             <div className="relative mt-3 min-h-72 w-full flex-1 md:w-1/2">
               <Image
@@ -239,25 +239,133 @@ export default async function Tokenomics() {
               />
             </div>
             <div className="w-full flex-1 p-8 md:w-1/2">
-              <div className="align-center flex flex-row justify-center text-5xl font-semibold">
+              <div className="align-center flex flex-row justify-center text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[60px]">
                 Token Value Proposition
               </div>
-              <div className="text-md mt-6 font-normal">
-                <span>
-                  <Icons.arrow_right_up className="mr-3 inline" />
-                  <span className="font-bold"> Value Growth: </span>
-                  The value of $Halal tokens grows in line with the performance
-                  of our investments and trading activities.
-                </span>{" "}
+              <div className="text-md mt-6 flex font-normal">
+                <div className="mr-3 mt-2">
+                  <Icons.arrow_right_up className="mr-3" />
+                </div>
+                <div>
+                  {" "}
+                  <span>
+                    <span className="font-bold"> Value Growth: </span>
+                    The value of $Halal tokens grows in line with the
+                    performance of our investments and trading activities.
+                  </span>{" "}
+                </div>
               </div>
-              <div className="text-md mt-6 font-normal">
-                <span>
-                  <Icons.coins className="mr-3 inline" />{" "}
-                  <span className="font-bold"> Market Flexibility: </span>
-                  $Halal tokens can be traded on major decentralized exchanges,
-                  including Uniswap, Matcha, and Halal DEX. This ensures
-                  liquidity and allows for unrestricted trading.
-                </span>{" "}
+              <div className="text-md mt-6 flex font-normal">
+                <div>
+                  <Icons.coins className="mr-3" />{" "}
+                </div>
+                <div>
+                  {" "}
+                  <span>
+                    <span className="font-bold"> Market Flexibility: </span>
+                    $Halal tokens can be traded on major decentralized
+                    exchanges, including Uniswap, Matcha, and Halal DEX. This
+                    ensures liquidity and allows for unrestricted trading.
+                  </span>{" "}
+                </div>
+              </div>
+            </div>
+          </div>
+        </MaxWidthWrapper>
+      </div>
+
+      <div className="bg-[#F7F6F6] py-10">
+        <MaxWidthWrapper>
+          <div className="rounded-xl bg-white p-8">
+            <div className="flex items-center justify-center">
+              <p className="w-2/4 text-center text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[60px]">
+                {" "}
+                Security and Risk Management
+              </p>
+            </div>
+            <div className="align-centre relative mt-3 flex min-h-56 w-full justify-center">
+              <Image
+                src="/_static/tokenomics/frame5.png"
+                alt="Background"
+                layout="fill"
+                objectFit="contain"
+                quality={100}
+                className="size-5 rounded-xl"
+              />
+            </div>
+            <div className="mt-8 flex flex-col justify-between rounded-xl md:flex-row md:items-stretch">
+              <div className="relative rounded-xl bg-[#F7F6F6] p-4 md:w-[48%]">
+                <div className="flex">
+                  <Icons.shield_black />
+                  <p className="ml-3 text-lg font-semibold">
+                    Safe Vault Protection
+                  </p>
+                </div>
+                <div className="mt-6">
+                  We prioritize the safety of your funds using Safe Vault, a
+                  multisignature (multisig) wallet provided by Safe(Wallet).
+                  Multisig wallets require multiple parties to approve
+                  transactions, reducing the risk of unauthorized access and
+                  ensuring that your investments are protected at all times.
+                </div>
+              </div>
+              <div className="mt-4 rounded-xl bg-[#F7F6F6] p-4 md:w-[48%] lg:mt-0">
+                <div className="flex">
+                  <Icons.check_verified />
+                  <p className="ml-3 text-lg font-semibold">
+                    Trusted by Industry Leaders
+                  </p>
+                </div>
+                <div className="mt-6">
+                  Safe.Global is a trusted platform, securing over $100 billion
+                  in assets for leading projects, including Ethereum co-founder
+                  Vitalik Buterin. By using this industry-standard multisig
+                  technology, we ensure top-tier protection for the funds
+                  backing $Halal tokens.
+                </div>
+              </div>
+            </div>
+            <div className="mt-8 flex flex-col justify-between overflow-hidden rounded-xl md:flex-row md:items-stretch">
+              <div className="relative w-full bg-[#F7F6F6] p-4 lg:w-2/4 xl:w-2/4">
+                <div className="flex">
+                  <p className="ml-3 w-4/5 text-xl font-semibold lg:text-6xl xl:text-6xl">
+                    Token Utility and Use Cases
+                  </p>
+                </div>
+                <div className="mt-6">
+                  <Link
+                    href="#"
+                    prefetch={true}
+                    className={cn(
+                      buttonVariants({ rounded: "full" }),
+                      "gap-2 px-4 pl-2",
+                    )}
+                  >
+                    <span> Invest in $halal</span>
+                  </Link>
+                </div>
+              </div>
+              <div className="mt-4 w-full bg-[#F7F6F6] p-4 lg:mt-0 lg:w-2/4 xl:w-2/4">
+                <div className="flex">
+                  <Icons.scales />
+                  <p className="ml-3 text-lg font-semibold">
+                    Governance (Future)
+                  </p>
+                </div>
+                <div className="mt-3">
+                  Token holders will eventually have voting rights to decide on
+                  key project matters.
+                </div>
+                <div className="mt-3 flex">
+                  <Icons.coins />
+                  <p className="ml-3 text-lg font-semibold">
+                    Staking & Rewards (Future)
+                  </p>
+                </div>
+                <div className="mt-3">
+                  Staking mechanisms will allow holders to lock tokens and earn
+                  rewards, further incentivizing long-term participation.
+                </div>
               </div>
             </div>
           </div>
@@ -265,8 +373,7 @@ export default async function Tokenomics() {
       </div>
 
       <MaxWidthWrapper>
-        <section className="relative my-10 overflow-hidden rounded-xl py-12 sm:py-12 lg:py-12">
-          {/* Background layers */}
+        <section className="relative my-10 overflow-hidden rounded-xl p-10">
           <div className="absolute inset-0 z-10">
             <Image
               src="/_static/landing/Vector.png"
@@ -284,10 +391,9 @@ export default async function Tokenomics() {
             }}
           ></div>
 
-          {/* Content */}
-          <div className="container relative z-20 flex max-w-5xl flex-col items-center gap-5 text-center">
+          <div className="container relative z-20 flex max-w-5xl flex-col items-center gap-5 rounded-xl bg-[#f1740011] p-8 text-center backdrop-blur-sm">
             <h1 className="text-balance font-urban text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-[50px]">
-              Have a more Questions?
+              Contract Addresses
             </h1>
 
             <div className="flex justify-center space-x-2 md:space-x-4">
@@ -306,13 +412,60 @@ export default async function Tokenomics() {
               >
                 <p>
                   <span className="text-black sm:inline-block">
-                    $invest in Halal
+                    Coming Soon
                   </span>
                 </p>
               </Link>
+            </div>
+          </div>
+          <div className="container relative z-20 mt-12 flex max-w-5xl flex-col items-center gap-5 rounded-xl p-8 text-center">
+            <h1 className="text-balance font-urban text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-[50px]">
+              Risk and Disclaimer
+            </h1>
+            <h1 className="text-balance font-urban text-lg tracking-tight text-white">
+              Check Terms of Use for full risk disclosures.
+            </h1>
+            <div className="mt-8 flex flex-col justify-between rounded-xl text-white md:flex-row md:items-stretch">
+              <div className="rounded-xl bg-[#de85310D] p-4 backdrop-blur-md md:w-[30%] lg:mt-0">
+                <div className="flex items-center">
+                  <Icons.alert_triangle />
+                  <p className="ml-3 text-lg font-semibold">
+                    Market Volatility
+                  </p>
+                </div>
+                <div className="mt-6">
+                  Market volatility, liquidity issues, and regulatory changes
+                  are inherent risks in cryptocurrency investments.
+                </div>
+              </div>
+              <div className="mt-4 rounded-xl bg-[#de85310D] p-4 backdrop-blur-md md:w-[30%] lg:mt-0">
+                <div className="flex items-center">
+                  <Icons.key />
+                  <p className="ml-3 text-lg font-semibold">
+                    Security Measures
+                  </p>
+                </div>
+                <div className="mt-6">
+                  While we implement robust security and strategic practices,
+                  investors must be aware of these risks.
+                </div>
+              </div>
+              <div className="mt-4 rounded-xl bg-[#de85310D] p-4 backdrop-blur-md md:w-[30%] lg:mt-0">
+                <div className="flex items-center">
+                  <Icons.line_chart_down />
+                  <p className="text-md ml-3 font-semibold">
+                    Investment Disclaimer
+                  </p>
+                </div>
+                <div className="mt-6">
+                  Please note, past performance is not indicative of future
+                  results, and all investments carry the potential for loss.
+                </div>
+              </div>
+            </div>
+            <div className="flex justify-center space-x-2 md:space-x-4">
               <Link
-                href={"/"}
-                target="_blank"
+                href={"terms"}
                 rel="noreferrer"
                 className={cn(
                   buttonVariants({
@@ -320,12 +473,12 @@ export default async function Tokenomics() {
                     size: "lg",
                     rounded: "full",
                   }),
-                  "px-5",
+                  "px-5, bg-white",
                 )}
               >
                 <p>
-                  <span className="text-white hover:text-black sm:inline-block">
-                    Contact Us
+                  <span className="text-black sm:inline-block">
+                    Terms of Use
                   </span>
                 </p>
               </Link>
