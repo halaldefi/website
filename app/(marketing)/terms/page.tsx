@@ -84,7 +84,7 @@ export default async function TermsOfUse() {
               >
                 <p>
                   <span className="text-black sm:inline-block">
-                    $invest in Halal
+                    Invest in $HDF
                   </span>
                 </p>
               </Link>

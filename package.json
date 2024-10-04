@@ -52,6 +52,7 @@
     "cmdk": "^1.0.0",
     "concurrently": "^8.2.2",
     "date-fns": "^3.6.0",
+    "embla-carousel": "^8.3.0",
     "embla-carousel-react": "^8.3.0",
     "lucide-react": "^0.414.0",
     "ms": "^2.1.3",
