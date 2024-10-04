@@ -314,7 +314,7 @@ export default function WhyHalal() {
                       Unlike traditional venture capital,{" "}
                       <span className="font-bold">
                         which locks up your funds for years, Halal DeFi lets you
-                        buy or sell $Halal tokens anytime on decentralized
+                        buy or sell $HDF tokens anytime on decentralized
                         exchanges,
                       </span>{" "}
                       providing liquidity and flexibility whenever you need it
@@ -327,7 +327,7 @@ export default function WhyHalal() {
                         "mt-10 gap-2 p-4 pl-2",
                       )}
                     >
-                      <span> Invest in $halal</span>
+                      <span> Invest in $HDF</span>
                     </Link>
                   </div>
                   <div className="relative size-full rounded-3xl lg:w-2/4">

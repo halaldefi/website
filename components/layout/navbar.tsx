@@ -81,7 +81,7 @@ export function NavBar({ scroll = false }: NavBarProps) {
             rounded="full"
             onClick={() => setShowSignInModal(true)}
           >
-            <span>Invest in $halal</span>
+            <span>Invest in $HDF</span>
             <Icons.arrowRight className="size-4" />
           </Button>
         </div>

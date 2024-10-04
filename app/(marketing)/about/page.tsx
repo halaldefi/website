@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import { EmblaOptionsType } from "embla-carousel";
 
 import { cn, constructMetadata } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
-import { Icons } from "@/components/shared/icons";
+import AdvisorsEmblaCarousel from "@/components/sections/AdvisorsEmblaCarousal";
+import TeamEmblaCarousel from "@/components/sections/TeamEmblaCarousal";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 
 export const metadata = constructMetadata({
@@ -13,6 +15,8 @@ export const metadata = constructMetadata({
 });
 
 export default async function About() {
+  const OPTIONS: EmblaOptionsType = { align: "start" };
+
   return (
     <div>
       <section className="relative overflow-hidden py-12 sm:py-36 lg:py-36">
@@ -35,7 +39,7 @@ export default async function About() {
         ></div>
         <div className="container relative z-20 flex flex-col items-center gap-5 text-center">
           <div className="flex flex-col rounded-xl md:flex-row md:items-stretch">
-            <div className="w-full p-4 md:p-8 lg:p-8 xl:p-8 md:w-3/5">
+            <div className="w-full p-4 md:w-3/5 md:p-8 lg:p-8 xl:p-8">
               <div className="align-center flex flex-row justify-center text-left text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[60px]">
                 Aspiring to be wealthy is an admirable goal, but so is staying
                 true to your values.
@@ -43,8 +47,8 @@ export default async function About() {
             </div>
             <div className="relative mt-3 flex min-h-72 w-full items-end p-8 md:w-2/5">
               <p className="font-semibold">
-                Investing according to Islamic principles isn't just about
-                financial gain—it's a commitment to aligning your wealth with
+                Investing according to Islamic principles isn&apos;t just about
+                financial gain, it&apos;s a commitment to aligning your wealth with
                 your values. Halal investing is not exclusive to Muslims; it
                 offers a disciplined and ethical framework for growing wealth
                 that can benefit everyone.
@@ -54,17 +58,17 @@ export default async function About() {
         </div>
       </section>
 
-      <div className="py-0 lg:py-10 md:py-10 xl:py-10 bg-[#F7F6F6]">
+      <div className="bg-[#F7F6F6] py-0 md:py-10 lg:py-10 xl:py-10">
         <MaxWidthWrapper>
-          <div className="rounded-xl bg-white p-0 lg:p-8 md:p-8 xl:p-8">
+          <div className="rounded-xl bg-white p-0 md:p-8 lg:p-8 xl:p-8">
             <div className="flex flex-col justify-between md:flex-row md:items-stretch">
-              <div className="relative p-4 md:w-[20%]">
+              <div className="relative p-4 md:w-1/5">
                 <div className="text-balance font-urban text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[50px]">
                   Our
                   <div className="text-gradient_halal">Mission</div>
                 </div>
               </div>
-              <div className="mt-4 p-4 font-light md:w-[80%] lg:mt-0">
+              <div className="mt-4 p-4 font-light md:w-4/5 lg:mt-0">
                 At Halal DeFi, our mission is simple:{" "}
                 <span className="font-extrabold">
                   to provide a platform where you can invest with confidence,
@@ -78,7 +82,7 @@ export default async function About() {
               </div>
             </div>
             <div className="mt-8 flex flex-col justify-between md:flex-row md:items-stretch">
-              <div className="relative p-4 md:w-[20%]">
+              <div className="relative p-4 md:w-1/5">
                 <div className="flex">
                   <div className="text-balance font-urban text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[60px]">
                     Why we
@@ -86,7 +90,7 @@ export default async function About() {
                   </div>
                 </div>
               </div>
-              <div className="mt-4 p-4 font-light md:w-[80%] lg:mt-0">
+              <div className="mt-4 p-4 font-light md:w-4/5 lg:mt-0">
                 In a world where financial growth often comes at the cost of
                 ethical compromise, we stand firm in our commitment to
                 <span className="font-bold">
@@ -111,120 +115,105 @@ export default async function About() {
                 </div>
               </div>
             </div>
+            <div className="my-10 border-t bg-[#F7F6F6]"></div>
+            <div className="align-center mb-10 flex flex-row justify-center text-left text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[50px]">
+              Meet With Our Team
+            </div>
+            <TeamEmblaCarousel options={OPTIONS} />
+          </div>
+        </MaxWidthWrapper>
+      </div>
+
+      <div className="bg-[#F7F6F6]">
+        <MaxWidthWrapper>
+          <div className="rounded-xl p-0 md:p-8 lg:p-8 xl:p-8">
+            <div className="mb-10 text-left text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[50px]">
+              Halal.io Advisors
+            </div>
+            <AdvisorsEmblaCarousel options={OPTIONS} />
           </div>
         </MaxWidthWrapper>
       </div>
 
       <MaxWidthWrapper>
-        <section className="relative my-10 overflow-hidden rounded-xl p-10">
-          <div className="absolute inset-0 z-10">
-            <Image
-              src="/_static/landing/Vector.png"
-              alt="Background"
-              layout="fill"
-              objectFit="cover"
-              quality={100}
-            />
-          </div>
-          <div
-            className="absolute inset-0 z-0"
-            style={{
-              background:
-                "radial-gradient(circle at top right, #402d21 20%, #000000 100%)",
-            }}
-          ></div>
-
-          <div className="container relative z-20 flex max-w-5xl flex-col items-center gap-5 rounded-xl bg-[#f1740011] p-8 text-center backdrop-blur-sm">
-            <h1 className="text-balance font-urban text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-[50px]">
-              Contract Addresses
-            </h1>
-
-            <div className="flex justify-center space-x-2 md:space-x-4">
-              <Link
-                href={"/"}
-                target="_blank"
-                rel="noreferrer"
-                className={cn(
-                  buttonVariants({
-                    variant: "outline",
-                    size: "lg",
-                    rounded: "full",
-                  }),
-                  "px-5, bg-white",
-                )}
-              >
-                <p>
-                  <span className="text-black sm:inline-block">
-                    Coming Soon
-                  </span>
-                </p>
-              </Link>
-            </div>
-          </div>
-          <div className="container relative z-20 mt-12 flex max-w-5xl flex-col items-center gap-5 rounded-xl p-8 text-center">
-            <h1 className="text-balance font-urban text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-[50px]">
-              Risk and Disclaimer
-            </h1>
-            <h1 className="text-balance font-urban text-lg tracking-tight text-white">
-              Check Terms of Use for full risk disclosures.
-            </h1>
-            <div className="mt-8 flex flex-col justify-between rounded-xl text-white md:flex-row md:items-stretch">
-              <div className="rounded-xl bg-[#de85310D] p-4 backdrop-blur-md md:w-[30%] lg:mt-0">
-                <div className="flex items-center">
-                  <Icons.alert_triangle />
-                  <p className="ml-3 text-lg font-semibold">
-                    Market Volatility
-                  </p>
-                </div>
-                <div className="mt-6">
-                  Market volatility, liquidity issues, and regulatory changes
-                  are inherent risks in cryptocurrency investments.
-                </div>
-              </div>
-              <div className="mt-4 rounded-xl bg-[#de85310D] p-4 backdrop-blur-md md:w-[30%] lg:mt-0">
-                <div className="flex items-center">
-                  <Icons.key />
-                  <p className="ml-3 text-lg font-semibold">
-                    Security Measures
-                  </p>
-                </div>
-                <div className="mt-6">
-                  While we implement robust security and strategic practices,
-                  investors must be aware of these risks.
-                </div>
-              </div>
-              <div className="mt-4 rounded-xl bg-[#de85310D] p-4 backdrop-blur-md md:w-[30%] lg:mt-0">
-                <div className="flex items-center">
-                  <Icons.line_chart_down />
-                  <p className="text-md ml-3 font-semibold">
-                    Investment Disclaimer
-                  </p>
-                </div>
-                <div className="mt-6">
-                  Please note, past performance is not indicative of future
-                  results, and all investments carry the potential for loss.
+        <section>
+          <div className="align-center flex w-full justify-center">
+            <div className="relative z-10 my-10 grid grid-cols-7 gap-3">
+              <div className="relative col-span-full flex overflow-hidden rounded-2xl lg:col-span-7">
+                <div
+                  className="card relative size-full overflow-hidden rounded-3xl"
+                  style={{
+                    background:
+                      "radial-gradient(circle at top right, #402d21 20%, #000000 100%)",
+                  }}
+                >
+                  <div className="absolute inset-0">
+                    <Image
+                      src="/_static/landing/vector2.png"
+                      alt="Background"
+                      layout="fill"
+                      objectFit="cover"
+                      quality={100}
+                    />
+                  </div>
+                  <div className="z-20 flex w-full flex-col flex-wrap p-16 lg:flex-row">
+                    <div className="w-full lg:w-2/5">
+                      <p className="text-2xl font-semibold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-[50px]">
+                        Join Us on This Journey
+                      </p>
+                    </div>
+                    <div className="relative w-full text-white lg:w-3/5">
+                      <p>
+                        Halal DeFi isn’t just about investing—it&apos;s about making
+                        a difference. When you join us, you’re part of a
+                        community that values integrity, growth, and innovation.
+                        Together, we can build a financial future that’s true to
+                        your values and beneficial for all.
+                      </p>
+                      <div className="mt-3 space-x-2 md:space-x-4">
+                        <Link
+                          href={"/"}
+                          target="_blank"
+                          rel="noreferrer"
+                          className={cn(
+                            buttonVariants({
+                              variant: "outline",
+                              size: "lg",
+                              rounded: "full",
+                            }),
+                            "px-5, bg-white",
+                          )}
+                        >
+                          <p>
+                            <span className="text-black sm:inline-block">
+                              Invest in $HDF
+                            </span>
+                          </p>
+                        </Link>
+                        <Link
+                          href={"/"}
+                          target="_blank"
+                          rel="noreferrer"
+                          className={cn(
+                            buttonVariants({
+                              variant: "outline",
+                              size: "lg",
+                              rounded: "full",
+                            }),
+                            "px-5",
+                          )}
+                        >
+                          <p>
+                            <span className="text-white hover:text-black sm:inline-block">
+                              Contact Us
+                            </span>
+                          </p>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="flex justify-center space-x-2 md:space-x-4">
-              <Link
-                href={"terms"}
-                rel="noreferrer"
-                className={cn(
-                  buttonVariants({
-                    variant: "outline",
-                    size: "lg",
-                    rounded: "full",
-                  }),
-                  "px-5, bg-white",
-                )}
-              >
-                <p>
-                  <span className="text-black sm:inline-block">
-                    Terms of Use
-                  </span>
-                </p>
-              </Link>
             </div>
           </div>
         </section>

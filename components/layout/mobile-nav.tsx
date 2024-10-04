@@ -71,7 +71,7 @@ export function NavMobile() {
               onClick={() => setOpen(false)}
               className="flex w-full font-medium capitalize"
             >
-              Invest in $halal
+              Invest in $HDF
             </Link>
           </li>
         </ul>

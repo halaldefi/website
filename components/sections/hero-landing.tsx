@@ -66,7 +66,7 @@ export default function HeroLanding() {
             )}
           >
             <Icons.right_double_arrow className="mr-2 size-4" />
-            <span> Invest in $halal</span>
+            <span> Invest in $HDF</span>
           </Link>
           <Link
             href={siteConfig.links.github}

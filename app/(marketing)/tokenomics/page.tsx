@@ -57,7 +57,7 @@ export default async function Tokenomics() {
                 <div>
                   {" "}
                   <span className="font-bold">Total Supply: .</span> 100 million
-                  $Halal tokens
+                  $HDFokens
                 </div>
               </div>
               <div className="text-md mt-6 flex font-normal">
@@ -205,7 +205,7 @@ export default async function Tokenomics() {
                     <li>
                       We engage in active trading on decentralized exchanges to
                       capitalize on market fluctuations, generating additional
-                      value for $Halal holders.
+                      value for $HDF holders.
                     </li>
                   </span>{" "}
                 </div>
@@ -250,7 +250,7 @@ export default async function Tokenomics() {
                   {" "}
                   <span>
                     <span className="font-bold"> Value Growth: </span>
-                    The value of $Halal tokens grows in line with the
+                    The value of $HDF tokens grows in line with the
                     performance of our investments and trading activities.
                   </span>{" "}
                 </div>
@@ -263,7 +263,7 @@ export default async function Tokenomics() {
                   {" "}
                   <span>
                     <span className="font-bold"> Market Flexibility: </span>
-                    $Halal tokens can be traded on major decentralized
+                    $HDF tokens can be traded on major decentralized
                     exchanges, including Uniswap, Matcha, and Halal DEX. This
                     ensures liquidity and allows for unrestricted trading.
                   </span>{" "}
@@ -321,7 +321,7 @@ export default async function Tokenomics() {
                   in assets for leading projects, including Ethereum co-founder
                   Vitalik Buterin. By using this industry-standard multisig
                   technology, we ensure top-tier protection for the funds
-                  backing $Halal tokens.
+                  backing $HDF tokens.
                 </div>
               </div>
             </div>
@@ -341,7 +341,7 @@ export default async function Tokenomics() {
                       "gap-2 px-4 pl-2",
                     )}
                   >
-                    <span> Invest in $halal</span>
+                    <span> Invest in $HDF</span>
                   </Link>
                 </div>
               </div>

@@ -8,9 +8,9 @@ import {
 const halalData = [
   {
     id: "item-1",
-    question: "Buy $Halal Token",
+    question: "Buy $HDF Token",
     answer:
-      "Purchase $Halal tokens on our decentralized exchange, Halal DEX. The process is simple—sign up with your email or phone and buy crypto with a card, or trade directly on platforms like 1Inch.",
+      "Purchase $HDF tokens on our decentralized exchange, Halal DEX. The process is simple—sign up with your email or phone and buy crypto with a card, or trade directly on platforms like 1Inch.",
   },
   {
     id: "item-2",
@@ -28,7 +28,7 @@ const halalData = [
     id: "item-4",
     question: "Flexible Growth or Withdrawal",
     answer:
-      "As the projects we invest in grow, the value of your $Halal tokens increases. You can choose to hold your tokens for long-term growth or sell them anytime on decentralized exchanges—no lock-up periods or restrictions.",
+      "As the projects we invest in grow, the value of your $HDF tokens increases. You can choose to hold your tokens for long-term growth or sell them anytime on decentralized exchanges—no lock-up periods or restrictions.",
   },
 ];
 

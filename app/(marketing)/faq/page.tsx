@@ -87,7 +87,7 @@ export default async function FAQ() {
               >
                 <p>
                   <span className="text-black sm:inline-block">
-                    $invest in Halal
+                    Invest in $HDF
                   </span>
                 </p>
               </Link>
