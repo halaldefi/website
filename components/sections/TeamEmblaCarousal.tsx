@@ -67,7 +67,7 @@ const TeamEmblaCarousel: React.FC<PropType> = (props) => {
                   {item.name}
                 </div>
                 <div className="mt-1 text-center text-sm">{item.role}</div>
-                <div className="mt-1 w-fit rounded-3xl mx-auto border-2 border-black px-3 py-1 text-xs font-bold">
+                <div className="mx-auto mt-1 w-fit rounded-3xl border-2 border-black px-3 py-1 text-xs font-bold">
                   <a rel="nofollow" target="_blank" href={item.linkedin}>
                     Linkedin
                   </a>
