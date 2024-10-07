@@ -23,12 +23,6 @@ const TeamEmblaCarousel: React.FC<PropType> = (props) => {
       linkedin: "https://in.linkedin.com/in/shuhaib",
     },
     {
-      img: "SK.jpg",
-      name: "Sathish Kumar",
-      role: "Co-founder, CEO",
-      linkedin: "https://in.linkedin.com/in/sathishkumarvenkat",
-    },
-    {
       img: "Hamza.jpeg",
       name: "Hamza Ahmed",
       role: "Lead Engineer",
