@@ -127,8 +127,8 @@ export default async function About() {
       <div className="bg-[#F7F6F6]">
         <MaxWidthWrapper>
           <div className="rounded-xl p-0 md:p-8 lg:p-8 xl:p-8">
-            <div className="mb-10 text-left text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[50px]">
-              Halal.io Advisors
+            <div className="mb-10 text-center text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[50px]">
+              Advisors
             </div>
             <AdvisorsEmblaCarousel options={OPTIONS} />
           </div>

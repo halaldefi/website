@@ -99,7 +99,7 @@ const AdvisorsEmblaCarousel: React.FC<PropType> = (props) => {
           {slides.map((item, index) => (
             <div className="embla__slide" key={index}>
               <div>
-                <div className="relative mt-3 min-h-72 w-full flex-1">
+                <div className="relative mt-2 min-h-72 w-full flex-1">
                   <div className="absolute left-2 top-1 z-10 rounded-xl bg-white px-2 py-1 text-xs text-black">
                     {item.place}
                   </div>
@@ -109,13 +109,16 @@ const AdvisorsEmblaCarousel: React.FC<PropType> = (props) => {
                     layout="fill"
                     objectFit="cover"
                     quality={100}
-                    className="rounded-xl"
+                    className="rounded-xl grayscale"
                   />
                 </div>
-                <div className="mt-3 text-center text-lg font-bold">
-                  {item.name}
+                <div className="mt-2 text-lg font-bold">{item.name}</div>
+                <div className="mt-1 min-h-[40px] text-sm">{item.role}</div>
+                <div className="mt-1 w-fit rounded-3xl border-2 border-black px-3 py-1 text-xs font-bold">
+                  <a rel="nofollow" target="_blank" href={item.linkedin}>
+                    Linkedin
+                  </a>
                 </div>
-                <div className="mt-1 text-center text-sm">{item.role}</div>
               </div>
             </div>
           ))}
