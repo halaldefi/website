@@ -53,7 +53,7 @@ const TeamEmblaCarousel: React.FC<PropType> = (props) => {
           {slides.map((item, index) => (
             <div className="embla__slide" key={index}>
               <div>
-                <div className="relative mt-3 min-h-72 w-full flex-1">
+                <div className="relative mt-3 min-h-96 w-full flex-1">
                   <Image
                     src={`/_static/about/${item.img}`}
                     alt={`${item.name}`}
@@ -67,6 +67,11 @@ const TeamEmblaCarousel: React.FC<PropType> = (props) => {
                   {item.name}
                 </div>
                 <div className="mt-1 text-center text-sm">{item.role}</div>
+                <div className="mt-1 w-fit rounded-3xl mx-auto border-2 border-black px-3 py-1 text-xs font-bold">
+                  <a rel="nofollow" target="_blank" href={item.linkedin}>
+                    Linkedin
+                  </a>
+                </div>
               </div>
             </div>
           ))}
