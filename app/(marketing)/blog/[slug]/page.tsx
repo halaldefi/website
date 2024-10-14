@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 import Image from "next/image";
 import { redirect } from "next/navigation";
 import { getPostBySlug } from "@/actions/getPostBySlug";
