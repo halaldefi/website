@@ -24,7 +24,7 @@ export const marketingConfig: MarketingConfig = {
     },
     {
       title: "Blog",
-      href: "#",
+      href: "https://blog.halal.io/",
       id: 5
     },
   ],
