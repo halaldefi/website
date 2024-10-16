@@ -18,20 +18,21 @@ export function LanToggle() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" className="size-8 px-10">
+        <Button variant="ghost" className="size-8 border px-12">
           English
+          <span> <Icons.ChevronDown className="size-4"/></span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
         <DropdownMenuItem>
           <span>English</span>
         </DropdownMenuItem>
-        <DropdownMenuItem>
+        {/* <DropdownMenuItem>
           <span>Arabic</span>
-        </DropdownMenuItem>
-        <DropdownMenuItem>
+        </DropdownMenuItem> */}
+        {/* <DropdownMenuItem>
           <span>Vietnamese</span>
-        </DropdownMenuItem>
+        </DropdownMenuItem> */}
       </DropdownMenuContent>
     </DropdownMenu>
   );

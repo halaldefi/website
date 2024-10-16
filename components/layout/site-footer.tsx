@@ -13,7 +13,7 @@ import { LanToggle } from "./lan-toggle";
 export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
   return (
     <footer className={cn("border-t", className)}>
-      <div className="container grid grid-cols-2 gap-6 pb-10 pt-14 md:grid-cols-9">
+      <div className="container grid grid-cols-2 gap-6 px-6 pb-10 pt-14 md:grid-cols-9 md:px-16">
         <div className="col-span-full flex flex-col sm:col-span-1 lg:col-span-3">
           <div>
             <Image
@@ -39,7 +39,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
               <span className="text-sm font-medium text-foreground">
                 {section.title}
               </span>
-              <ul className="mt-4 list-inside space-y-3">
+              <ul className="list-inside space-y-3">
                 {section.items?.map((link) => (
                   <li key={link.id}>
                     <Link
@@ -54,12 +54,12 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
             </div>
           ))}
         </div>
-        <div className="col-span-full flex flex-col items-end justify-center sm:col-span-1 md:col-span-3">
+        <div className="col-span-full flex flex-col items-end justify-start sm:col-span-1 md:col-span-3">
           <NewsletterForm />
         </div>
       </div>
-      <div className="container grid grid-cols-1 gap-6 pb-14 md:grid-cols-9">
-        <div className="col-span-full flex flex-col items-center sm:col-span-1 lg:col-span-3">
+      <div className="container mt-8 grid grid-cols-1 gap-6 px-6 pb-2 md:grid-cols-9 md:px-16">
+        <div className="col-span-full flex flex-col sm:col-span-1 lg:col-span-3">
           <LanToggle />
         </div>
         <div className="flex flex-col items-center sm:col-span-1 sm:flex-row sm:justify-evenly lg:col-span-3">
@@ -67,7 +67,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
             © 2024 halal.io . All rights reserved
           </p>
         </div>
-        <div className="col-span-full flex flex-col items-center sm:col-span-1 sm:flex-row sm:items-end sm:justify-center md:col-span-3">
+        <div className="col-span-full flex flex-col items-center sm:col-span-1 sm:flex-row sm:items-end sm:justify-end md:col-span-3">
           <div className="mt-6 flex space-x-4 sm:mt-0">
             <a
               href="https://twitter.com/HalalDeFi"

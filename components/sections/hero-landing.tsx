@@ -36,7 +36,6 @@ export default function HeroLanding() {
             buttonVariants({ variant: "outline", size: "sm", rounded: "full" }),
             " cursor-default px-4" ,
           )}
-          target="_blank"
         >
           <span className="mr-3">
             <Icons.solid className="ml-2 size-3.5" />
