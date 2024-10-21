@@ -46,7 +46,7 @@ export default function WhyHalal() {
                       <p className="text-4xl text-white lg:w-3/5">
                         Early Access to High-Growth Web3 Projects
                       </p>
-                      <p className="mt-10 text-sm text-white">
+                      <p className="mt-10 text-lg text-white">
                         As a micro venture fund, Halal DeFi gives you
                         early-stage access to blockchain and decentralized
                         finance (DeFi) projects that are typically reserved for

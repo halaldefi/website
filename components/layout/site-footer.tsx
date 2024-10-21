@@ -64,7 +64,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
         </div>
         <div className="flex flex-col items-center sm:col-span-1 sm:flex-row sm:justify-evenly lg:col-span-3">
           <p className="text-md font-semibold">
-            © 2024 halal.io . All rights reserved
+            © 2024 Halal DeFi. All rights reserved
           </p>
         </div>
         <div className="col-span-full flex flex-col items-center sm:col-span-1 sm:flex-row sm:items-end sm:justify-end md:col-span-3">
