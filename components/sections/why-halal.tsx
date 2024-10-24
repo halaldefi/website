@@ -168,7 +168,7 @@ export default function WhyHalal() {
                   <div className="hidden w-2/6 items-center justify-center p-4 lg:flex">
                     <Icons.shield_yellow />
                   </div>
-                  <div className="z-10 mb-6 lg:w-4/6 items-center justify-center gap-4 space-y-1.5 px-10 lg:flex lg:flex-col">
+                  <div className="z-10 mb-6 px-10 lg:flex lg:flex-col items-center justify-center gap-4 space-y-1.5 lg:w-4/6 ">
                     <h1 className="mr-16 text-4xl font-semibold text-foreground">
                       Transparent and Secure
                     </h1>
@@ -195,7 +195,7 @@ export default function WhyHalal() {
                     />
                   </div>
                   <div className="absolute z-10 mb-6 space-y-1.5 px-6 lg:bottom-0">
-                    <h1 className="lg:mb-10  mb-4 lg:mr-16 mt-6 text-4xl font-semibold text-foreground lg:w-3/5">
+                    <h1 className="mt-6 mb-4 lg:mb-10 lg:mr-16 text-4xl font-semibold text-foreground lg:w-3/5">
                       Global Reach, Shared Values
                     </h1>
                     <p className="w-[70%] text-left text-sm text-muted-foreground">

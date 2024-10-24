@@ -350,7 +350,7 @@ export default async function Tokenomics() {
                     prefetch={true}
                     className={cn(
                       buttonVariants({ rounded: "full" }),
-                      "gap-2 px-4 pl-4",
+                      "gap-2 px-4",
                     )}
                   >
                     <span> Invest in $HDF</span>
