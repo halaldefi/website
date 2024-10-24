@@ -57,7 +57,8 @@ export default function HeroLanding() {
 
         <div className="flex justify-center space-x-2 md:space-x-4">
           <Link
-            href="#"
+            href="https://getwaitlist.com/waitlist/8535"
+            target="_blank"
             prefetch={true}
             className={cn(
               buttonVariants({ rounded: "full" }),
@@ -68,8 +69,7 @@ export default function HeroLanding() {
             <span> Invest in $HDF</span>
           </Link>
           <Link
-            href={siteConfig.links.github}
-            target="_blank"
+            href="/tokenomics"
             rel="noreferrer"
             className={cn(
               buttonVariants({

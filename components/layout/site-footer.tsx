@@ -45,6 +45,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
                     <Link
                       href={link.href}
                       className="text-sm text-muted-foreground hover:text-primary"
+                      target={link.id === 8 ? '_blank' : '_self'}
                     >
                       {link.title}
                     </Link>

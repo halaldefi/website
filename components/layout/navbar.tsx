@@ -39,7 +39,7 @@ export function NavBar({ scroll = false }: NavBarProps) {
         className="flex h-14 items-center justify-between py-4"
         large={documentation}
       >
-        <div className="flex gap-6 md:gap-10">
+        <div className="flex">
           <Link href="/" className="flex items-center space-x-1.5">
             <Image
               src="/_static/landing/Logo.png"
@@ -50,7 +50,12 @@ export function NavBar({ scroll = false }: NavBarProps) {
               quality={100}
             />
           </Link>
+          <div className="ml-3 flex items-center text-lg font-semibold">
+            Halal <span className="text-gradient_halal ml-1">Defi</span> 
+          </div>
+        </div>
 
+        <div>
           {links && links.length > 0 ? (
             <nav className="hidden gap-6 md:flex">
               {links.map((item, index) => (
@@ -79,7 +84,8 @@ export function NavBar({ scroll = false }: NavBarProps) {
             variant="default"
             size="sm"
             rounded="full"
-            onClick={() => setShowSignInModal(true)}
+            // onClick={() => setShowSignInModal(true)}
+            onClick={() => window.open("https://getwaitlist.com/waitlist/8535", "_blank")}
           >
             <span>Invest in $HDF</span>
             <Icons.arrowRight className="size-4" />

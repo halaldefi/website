@@ -33,7 +33,7 @@ export const footerLinks: SidebarNavItem[] = [
       { title: "Blog", href: "#", id: 5 },
       { title: "FAQs", href: "faq", id: 6 },
       { title: "Terms of Use", href: "terms", id: 7 },
-      { title: "Contact Us", href: "#", id: 8 },
+      { title: "Contact Us", href: "https://docs.google.com/forms/d/e/1FAIpQLSeUL1wFrpYtOwlNd2w7P1l1tAr3wjgZzaoXJWoA6Gsosn51sg/viewform", id: 8 },
     ],
   },
 ];

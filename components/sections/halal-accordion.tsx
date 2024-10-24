@@ -10,25 +10,25 @@ const halalData = [
     id: "item-1",
     question: "Buy $HDF Token",
     answer:
-      "Purchase $HDF tokens on our decentralized exchange, Halal DEX. The process is simple—sign up with your email or phone and buy crypto with a card, or trade directly on platforms like 1Inch.",
+      "Purchase $HDF tokens directly from our website. Simply connect your existing wallet or create one with your email or phone. It’s a quick and beginner-friendly process to get started.",
   },
   {
     id: "item-2",
-    question: "We Invest in Shariah-Compliant Projects for You",
+    question: "Price Increases as Tokens Sell",
     answer:
-      "As your fund managers, we allocate your investment into carefully selected Web3 projects that are fully vetted for Shariah compliance. You don’t need to pick projects—we manage the entire process.",
+      "The earlier you buy, the better the price. The $HDF token starts at $0.10, but its price automatically increases by 2% every time 1 million tokens are sold. This means the sooner you invest, the more value you lock in.",
   },
   {
     id: "item-3",
-    question: "Track Your Investment Anytime",
+    question: "We Invest in High-Growth, Shariah-Compliant Projects",
     answer:
-      "All transactions are recorded on the blockchain, giving you full visibility. You can track your investment in real-time and monitor how your money is growing with complete transparency.",
+      "Once you hold $HDF, your funds are allocated to vetted, Shariah-compliant Web3 and blockchain projects. As these projects grow, the value of our overall investments increases, which in turn raises the underlying value of your $HDF tokens.",
   },
   {
     id: "item-4",
-    question: "Flexible Growth or Withdrawal",
+    question: "Track and Trade Your Tokens",
     answer:
-      "As the projects we invest in grow, the value of your $HDF tokens increases. You can choose to hold your tokens for long-term growth or sell them anytime on decentralized exchanges—no lock-up periods or restrictions.",
+      "All transactions are recorded on the blockchain, providing full transparency. Starting in May 2025, you can trade your $HDF tokens on decentralized exchanges like PancakeSwap and Uniswap. Hold your tokens for long-term growth or trade them at your convenience—there’s no lock-up period.",
   },
 ];
 
@@ -43,12 +43,12 @@ export default function HalalAccordion () {
                 <div className="z-20 flex w-full flex-col flex-wrap p-10 lg:flex-row">
                   <div className="flex w-full flex-col justify-between lg:w-2/5">
                     <p className="text-6xl font-semibold text-black">How Halal.io Works</p>
-                    <p className="mt-4 text-sm text-black">
+                    {/* <p className="mt-4 text-sm text-black">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                       ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    </p>
+                    </p> */}
                   </div>
                   <div className="relative w-full text-black lg:w-1/5"></div>
                   <div className="relative w-full text-black lg:w-2/5">

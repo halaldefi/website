@@ -4,7 +4,7 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
 
-export default function HalalCard () {
+export default function HalalCard() {
   return (
     <section>
       <div className="align-center flex w-full justify-center bg-[#F8F8F8]">
@@ -27,14 +27,13 @@ export default function HalalCard () {
                     quality={100}
                   />
                 </div>
-                <div className="z-20 flex w-full flex-col flex-wrap p-16 lg:flex-row">
+                <div className="relative z-20 flex w-full flex-col flex-wrap p-16 lg:flex-row">
                   <div className="w-full lg:w-2/5">
                     <p className="text-6xl font-semibold text-white">
-                      Get to know Halal.io better
+                      Who We Are
                     </p>
                     <Link
-                      href={""}
-                      target="_blank"
+                      href={"about"}
                       rel="noreferrer"
                       className={cn(
                         buttonVariants({
@@ -42,31 +41,28 @@ export default function HalalCard () {
                           size: "lg",
                           rounded: "full",
                         }),
-                        "my-10 bg-white px-5 ",
+                        "my-10 bg-white px-5",
                       )}
                     >
                       <p>
-                        <span className="sm:inline-block">Meet the team</span>
+                        <span className="sm:inline-block">Meet our team</span>
                       </p>
                     </Link>
                   </div>
                   <div className="relative w-full text-white lg:w-3/5">
                     <p>
-                      Halal DeFi is a leading micro venture capital fund, using
-                      AI-driven strategies and deep knowledge in Web3 and
-                      decentralized finance. Our founders have strong
-                      backgrounds in tech, finance, and strategic investing,
-                      enabling us to select projects with high growth potential
-                      that adhere to Shariah principles.
+                      Halal DeFi is the first “Halal” micro venture capital fund
+                      on the blockchain, giving you early access to high-growth
+                      Web3 investments. Our team combines expertise in AI &
+                      blockchain technology, and Islamic compliance to ensure
+                      your investments are managed ethically and responsibly.
                     </p>
                     <p className="mt-10">
-                      Committed to transparency, we store all assets in
-                      multi-signature SAFE vaults and provide regular updates on
-                      our holdings, all trackable on the blockchain. Join us to
-                      invest in ethical, advanced projects and benefit from our
-                      strategic, technology-driven approach. enabling us to
-                      select projects with high growth potential that adhere to
-                      Shariah principles.
+                      We are supported by a team of advisors with expertise in
+                      Web3, entrepreneurship, and Islamic finance. This includes
+                      blockchain professionals, business leaders, and Islamic
+                      scholars who ensure our investments align with both growth
+                      potential and Shariah principles.
                     </p>
                   </div>
                 </div>

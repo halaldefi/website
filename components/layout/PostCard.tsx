@@ -129,8 +129,7 @@ export default function PostCard({
 }) {
   return (
     <div
-      className="flex cursor-pointer flex-col rounded-lg p-3 sm:w-2/4 lg:w-2/5 xl:w-1/4"
-      style={{ backgroundColor: bgColor }}
+      className="flex cursor-pointer flex-col rounded-lg bg-white p-3 sm:w-2/4 lg:w-2/5 xl:w-1/4"
     >
       <Link href={data.url} className="grow">
         <div>
@@ -151,8 +150,8 @@ export default function PostCard({
             <span className="ml-2">{data.reading_time} Mins Read</span>
             <div className="ml-4"></div>
             {/* <Link href={data.authors[0].url}> */}
-              <Icons.user className="size-4 text-gray-400" />{" "}
-              <span className="ml-2">{data.authors[0].name}</span>
+            <Icons.user className="size-4 text-gray-400" />{" "}
+            <span className="ml-2">{data.authors[0].name}</span>
             {/* </Link> */}
           </div>
         </div>

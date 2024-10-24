@@ -74,11 +74,18 @@ const AdvisorsEmblaCarousel: React.FC<PropType> = (props) => {
       place: "India",
     },
     {
-      img: "FarhadF.jpeg",
-      name: "Farhad F.",
-      role: "Chief Communications Officer at Enflux",
-      linkedin: "https://www.linkedin.com/in/farhadfa/",
+      img: "yahia.jpeg",
+      name: "Yehia Tarek",
+      role: "Blockchain Engineer at Nethermind",
+      linkedin: "https://www.linkedin.com/in/yehia-tarek-abdelmonem/ ",
       place: "Azerbaijan",
+    },
+    {
+      img: "farhan.jpeg",
+      name: "Farhan Khwaja",
+      role: "Software Engineer at ThirdWeb",
+      linkedin: "https://www.linkedin.com/in/khwajafarhan/ ",
+      place: "United States",
     },
   ];
 

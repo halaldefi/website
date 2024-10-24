@@ -47,10 +47,14 @@ export default async function Tokenomics() {
         <MaxWidthWrapper>
           <div className="flex flex-col rounded-xl bg-[#F7F6F6] md:flex-row md:items-stretch">
             <div className="w-full flex-1 p-8 md:w-1/2">
-              <div className="align-center flex flex-row justify-center text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[60px]">
+              <div className="align-center flex flex-row text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[60px]">
                 Token Supply and Distribution
               </div>
-              <div className="text-md mt-6 flex font-normal">
+              <div className="mt-6 font-bold">
+                We maintain transparency by clearly defining the token
+                distribution:
+              </div>
+              <div className="text-md mt-2 flex font-normal">
                 <div>
                   <Icons.coins className="mr-3 inline" />{" "}
                 </div>
@@ -69,7 +73,7 @@ export default async function Tokenomics() {
                   <span>
                     <span className="font-bold">
                       {" "}
-                      85% for Retail Investors:{" "}
+                      90% for Retail Investors:{" "}
                     </span>{" "}
                     Tokens are sold in phases over the next two years, ensuring
                     wide access to the community.
@@ -83,7 +87,7 @@ export default async function Tokenomics() {
                 <div>
                   {" "}
                   <span>
-                    <span className="font-bold"> 15% Liquidity Pool: </span>
+                    <span className="font-bold"> 10% Liquidity Pool: </span>
                     Locked in decentralized exchanges (Uniswap, PancakeSwap,
                     Halal DEX) to ensure consistent liquidity for trading.
                   </span>{" "}
@@ -118,10 +122,14 @@ export default async function Tokenomics() {
               />
             </div>
             <div className="w-full flex-1 p-8 md:w-1/2">
-              <div className="align-center flex flex-row justify-center text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[60px]">
+              <div className="align-center flex flex-row text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[60px]">
                 No Team Tokens or Airdrops
               </div>
-              <div className="text-md mt-6 flex font-normal">
+              <div className="mt-6 font-bold">
+                Unlike many projects, Halal.io does not reserve tokens for the
+                team, influencers, or advisors.
+              </div>
+              <div className="text-md mt-2 flex font-normal">
                 <div>
                   <Icons.users_x className="mr-3 inline" />
                 </div>
@@ -172,10 +180,13 @@ export default async function Tokenomics() {
         <MaxWidthWrapper className="mt-4">
           <div className="flex flex-col rounded-xl bg-[#F7F6F6] md:flex-row md:items-stretch">
             <div className="w-full flex-1 p-8 md:w-1/2">
-              <div className="align-center flex flex-row justify-center text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[60px]">
+              <div className="align-center flex flex-row text-2xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-[60px]">
                 Investment Strategy
               </div>
-              <div className="text-md mt-6 flex font-normal">
+              <div className="mt-6 font-bold">
+                Our strategy revolves around two key elements:
+              </div>
+              <div className="text-md mt-2 flex font-normal">
                 <div className="mr-3">
                   <Icons.pie_chart className="mr-3" />
                 </div>
@@ -250,8 +261,8 @@ export default async function Tokenomics() {
                   {" "}
                   <span>
                     <span className="font-bold"> Value Growth: </span>
-                    The value of $HDF tokens grows in line with the
-                    performance of our investments and trading activities.
+                    The value of $HDF tokens grows in line with the performance
+                    of our investments and trading activities.
                   </span>{" "}
                 </div>
               </div>
@@ -263,9 +274,9 @@ export default async function Tokenomics() {
                   {" "}
                   <span>
                     <span className="font-bold"> Market Flexibility: </span>
-                    $HDF tokens can be traded on major decentralized
-                    exchanges, including Uniswap, Matcha, and Halal DEX. This
-                    ensures liquidity and allows for unrestricted trading.
+                    $HDF tokens can be traded on major decentralized exchanges,
+                    including Uniswap, Matcha, and Halal DEX. This ensures
+                    liquidity and allows for unrestricted trading.
                   </span>{" "}
                 </div>
               </div>
@@ -334,11 +345,12 @@ export default async function Tokenomics() {
                 </div>
                 <div className="mt-6">
                   <Link
-                    href="#"
+                    href="https://getwaitlist.com/waitlist/8535"
+                    target="_blank"
                     prefetch={true}
                     className={cn(
                       buttonVariants({ rounded: "full" }),
-                      "gap-2 px-4 pl-2",
+                      "gap-2 px-4 pl-4",
                     )}
                   >
                     <span> Invest in $HDF</span>

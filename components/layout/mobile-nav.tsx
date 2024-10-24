@@ -46,7 +46,7 @@ export function NavMobile() {
 
       <nav
         className={cn(
-          "fixed inset-0 z-20 hidden w-full overflow-auto bg-background px-5 py-16 lg:hidden",
+          "fixed inset-0 z-40 hidden w-full overflow-auto bg-background px-5 py-16 lg:hidden",
           open && "block",
         )}
       >
@@ -67,8 +67,9 @@ export function NavMobile() {
 
           <li className="py-3">
             <Link
-              href="/register"
-              onClick={() => setOpen(false)}
+              href="https://getwaitlist.com/waitlist/8535"
+              target="_blank"
+              // onClick={() => setOpen(false)}
               className="flex w-full font-medium capitalize"
             >
               Invest in $HDF
