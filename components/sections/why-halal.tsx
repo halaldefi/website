@@ -103,10 +103,10 @@ export default function WhyHalal() {
                   <Icons.market_up className="w-full" />
                 </div>
                 <div className="z-10 my-6 block space-y-1.5 px-6 lg:flex lg:items-end lg:justify-center">
-                  <h1 className="text-4xl font-semibold text-foreground lg:mr-4 lg:text-2xl xl:mr-16 xl:text-4xl">
+                  <h1 className="text-4xl font-semibold text-foreground lg:mr-2 lg:text-2xl xl:mr-10 xl:text-4xl">
                     Ethical Investments
                   </h1>
-                  <p className="text-left text-sm text-muted-foreground">
+                  <p className="text-left text-[14px] text-muted-foreground">
                     Our commitment to Islamic financial principles guides every
                     investment decision. We strictly avoid riba (interest),
                     gambling, and other non-permissible activities, focusing
@@ -127,7 +127,7 @@ export default function WhyHalal() {
                     <h1 className="mr-16 text-4xl font-semibold text-foreground lg:mb-10 lg:w-2/4">
                       Sustainable, High-Value Returns
                     </h1>
-                    <p className="text-left text-sm text-muted-foreground lg:w-2/4">
+                    <p className="text-left text-[14px] text-muted-foreground lg:w-2/4">
                       We aim for a target Internal Rate of Return (IRR) of 22%
                       through disciplined project selection and active asset
                       management. Our focus is on delivering sustainable growth
@@ -168,11 +168,11 @@ export default function WhyHalal() {
                   <div className="hidden w-2/6 items-center justify-center p-4 lg:flex">
                     <Icons.shield_yellow />
                   </div>
-                  <div className="z-10 mb-6 px-10 lg:flex lg:flex-col items-center justify-center gap-4 space-y-1.5 lg:w-4/6 ">
+                  <div className="z-10 my-6 items-center justify-center gap-4 space-y-1.5 px-10 lg:my-0 lg:flex lg:w-4/6 lg:flex-col">
                     <h1 className="mr-16 text-4xl font-semibold text-foreground">
                       Transparent and Secure
                     </h1>
-                    <p className="text-left text-sm text-muted-foreground">
+                    <p className="text-left text-[14px] text-muted-foreground">
                       Transparency is paramount in our operations. Every
                       transaction is publicly recorded, and all funds are stored
                       in multi-signature vaults, adding extra layers of security
@@ -195,10 +195,10 @@ export default function WhyHalal() {
                     />
                   </div>
                   <div className="absolute z-10 mb-6 space-y-1.5 px-6 lg:bottom-0">
-                    <h1 className="mt-6 mb-4 lg:mb-10 lg:mr-16 text-4xl font-semibold text-foreground lg:w-3/5">
+                    <h1 className="mb-4 mt-6 text-4xl font-semibold text-foreground lg:mb-10 lg:mr-16 lg:w-3/5">
                       Global Reach, Shared Values
                     </h1>
-                    <p className="w-[70%] text-left text-sm text-muted-foreground">
+                    <p className="w-[70%] text-left text-[14px] text-muted-foreground">
                       With over 1.8 billion Muslims worldwide, Halal DeFi taps
                       into a growing market of investors who are seeking both
                       financial returns and ethical alignment. Join a global
@@ -254,7 +254,7 @@ export default function WhyHalal() {
                     <p className="text-6xl font-semibold text-black">
                       No Long Lock-Ups, Full Control
                     </p>
-                    <p className="mt-10 text-sm text-black">
+                    <p className="mt-10 text-[14px] text-black">
                       Traditional venture capital locks your funds for years,
                       but with Halal DeFi, you have full liquidity. You can buy
                       or sell{" "}

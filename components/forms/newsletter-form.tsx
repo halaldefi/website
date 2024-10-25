@@ -14,8 +14,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { toast } from "@/components/ui/use-toast";
-// import { postMember } from "@/actions/addMember";
+import { toast } from "sonner";
 
 const FormSchema = z.object({
   email: z.string().email({
@@ -25,6 +24,8 @@ const FormSchema = z.object({
 
 export function NewsletterForm() {
   const [isLoading, setIsLoading] = useState(false);
+  const [isSubscribed, setIsSubscribed] = useState(false);
+
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
     defaultValues: {
@@ -35,15 +36,29 @@ export function NewsletterForm() {
   async function onSubmit(data: z.infer<typeof FormSchema>) {
     setIsLoading(true);
     try {
-      // await postMember(data.email);
-      // toast({
-      //   title: "Success",
-      //   description: 'Successfully subscribed',
-      // });
-    } catch (error) {
-      toast({
-        title: "Success",
-        description: 'Successfully subscribed',
+      const response = await fetch("/api/postMember", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email: data.email }),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        setIsSubscribed(true); 
+        return toast.success("Success", {
+          description: "Successfully subscribed",
+        });
+      } else {
+        return toast.error("Something went wrong.", {
+          description: "Failed to subscribe"
+        });
+      }
+    } catch (error: any) {
+      return toast.error("Something went wrong.", {
+        description: "Failed to subscribe"
       });
     } finally {
       setIsLoading(false);
@@ -67,14 +82,25 @@ export function NewsletterForm() {
                   className="rounded-full bg-gray-300 px-4"
                   placeholder="Fill your email"
                   {...field}
+                  disabled={isSubscribed || isLoading} // Disable input when subscribed or loading
                 />
               </FormControl>
               <FormMessage />
             </FormItem>
           )}
         />
-        <Button type="submit" size="sm" rounded="full" className="px-4" disabled={isLoading}>
-          {isLoading ? 'Submitting...' : 'Subscribe'}
+        <Button
+          type="submit"
+          size="sm"
+          rounded="full"
+          className="px-4"
+          disabled={isSubscribed || isLoading} // Disable button when subscribed or loading
+        >
+          {isSubscribed
+            ? "Subscribed"
+            : isLoading
+            ? "Submitting..."
+            : "Subscribe"}
         </Button>
       </form>
     </Form>
