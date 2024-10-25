@@ -15,18 +15,19 @@ export function constructMetadata({
   image = siteConfig.ogImage,
   icons = "/favicon.ico",
   noIndex = false,
+  keywords = [
+    "DeFi",
+    "Halal Finance",
+    "Cryptocurrency",
+    "Blockchain",
+    "Next.js",
+    "React",
+  ],
 } = {}): Metadata {
   return {
     title,
     description,
-    keywords: [
-      "DeFi",
-      "Halal Finance",
-      "Cryptocurrency",
-      "Blockchain",
-      "Next.js",
-      "React",
-    ],
+    keywords,
     authors: [
       {
         name: "halal.io",
@@ -59,6 +60,7 @@ export function constructMetadata({
     }),
   };
 }
+
 
 export function formatDate(input: string | number): string {
   const date = new Date(input);

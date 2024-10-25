@@ -10,9 +10,10 @@ import { Icons } from "@/components/shared/icons";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 
 export const metadata = constructMetadata({
-  title: "FAQs – Halal.io",
+  title: "Halal DeFi FAQ - Ethical Blockchain Investments Explained",
   description:
-    "Halal DeFi is a Shariah-compliant venture fund on the blockchain, providing access to high-growth opportunities in Web3. Each investment aligns with the principles of Islamic finance—no riba, no compromise.",
+    "Get answers on Halal DeFi’s ethical, Shariah-compliant investments in blockchain. Learn about $HDF token risks, returns, and Islamic finance compliance for secure, transparent crypto investing.",
+  keywords: ["Halal DeFi FAQ", "ethical blockchain investment", "Shariah-compliant DeFi", "$HDF tokens", "Islamic finance", "crypto transparency"]
 });
 
 export default async function FAQ() {
@@ -73,7 +74,7 @@ export default async function FAQ() {
 
             <div className="flex justify-center space-x-2 md:space-x-4">
               <Link
-                href={"/"}
+                href="https://getwaitlist.com/waitlist/8535"
                 target="_blank"
                 rel="noreferrer"
                 className={cn(
@@ -92,7 +93,7 @@ export default async function FAQ() {
                 </p>
               </Link>
               <Link
-                href={"/"}
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeUL1wFrpYtOwlNd2w7P1l1tAr3wjgZzaoXJWoA6Gsosn51sg/viewform"
                 target="_blank"
                 rel="noreferrer"
                 className={cn(

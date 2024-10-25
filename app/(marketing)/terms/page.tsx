@@ -7,9 +7,10 @@ import FaqAccordion from "@/components/sections/faq-accordion";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 
 export const metadata = constructMetadata({
-  title: "Terms of use – Halal.io",
+  title: "Halal DeFi Terms of Use - Ethical Investment Platform Policies",
   description:
-    "Halal DeFi is a Shariah-compliant venture fund on the blockchain, providing access to high-growth opportunities in Web3. Each investment aligns with the principles of Islamic finance—no riba, no compromise.",
+    "Read the Terms of Use for Halal DeFi, detailing our commitment to Shariah-compliant investing, user rights, platform policies, and transparent crypto asset management. Understand your rights and responsibilities on Halal.io.",
+  keywords: ["Halal DeFi Terms of Use", "platform policies", "Shariah-compliant investing", "ethical crypto terms", "user rights", "Halal.io policies", "transparent blockchain investment"]
 });
 
 export default async function TermsOfUse() {

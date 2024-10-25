@@ -49,10 +49,10 @@ export function NavBar({ scroll = false }: NavBarProps) {
               objectFit="cover"
               quality={100}
             />
+            <div className="ml-3 flex items-center text-lg font-semibold">
+              Halal <span className="text-gradient_halal ml-1">DeFi</span>
+            </div>
           </Link>
-          <div className="ml-3 flex items-center text-lg font-semibold">
-            Halal <span className="text-gradient_halal ml-1">Defi</span> 
-          </div>
         </div>
 
         <div>
@@ -85,7 +85,9 @@ export function NavBar({ scroll = false }: NavBarProps) {
             size="sm"
             rounded="full"
             // onClick={() => setShowSignInModal(true)}
-            onClick={() => window.open("https://getwaitlist.com/waitlist/8535", "_blank")}
+            onClick={() =>
+              window.open("https://getwaitlist.com/waitlist/8535", "_blank")
+            }
           >
             <span>Invest in $HDF</span>
             <Icons.arrowRight className="size-4" />

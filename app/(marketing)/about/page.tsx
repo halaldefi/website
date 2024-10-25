@@ -10,9 +10,11 @@ import { Icons } from "@/components/shared/icons";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 
 export const metadata = constructMetadata({
-  title: "About – Halal.io",
+  title:
+    "About Halal DeFi - Halal Micro Venture Capital Fund on the Blockchain",
   description:
-    "Halal DeFi is a Shariah-compliant venture fund on the blockchain, providing access to high-growth opportunities in Web3. Each investment aligns with the principles of Islamic finance—no riba, no compromise.",
+    "Learn about Halal DeFi, the first Shariah-compliant micro VC for blockchain. Our team combines expertise in finance, blockchain, and Islamic principles to deliver ethical, transparent investing.",
+  keywords: ["Shariah-compliant VC", "blockchain micro VC", "ethical crypto investing", "Halal DeFi team", "Web3 investments", "Islamic finance"]  
 });
 
 export default async function About() {
@@ -49,9 +51,9 @@ export default async function About() {
             <div className="relative mt-3 flex min-h-72 w-full items-end p-8 md:w-2/5">
               <p className="font-semibold">
                 Investing according to Islamic principles isn&apos;t just about
-                financial gain—it&apos;s a commitment to aligning your wealth with
-                your values. Halal investing is not exclusive to Muslims; it
-                offers a disciplined and ethical framework for growing wealth
+                financial gain—it&apos;s a commitment to aligning your wealth
+                with your values. Halal investing is not exclusive to Muslims;
+                it offers a disciplined and ethical framework for growing wealth
                 that can benefit everyone.
               </p>
             </div>
@@ -278,7 +280,7 @@ export default async function About() {
                           </p>
                         </Link>
                         <Link
-                          href={"/"}
+                          href="https://docs.google.com/forms/d/e/1FAIpQLSeUL1wFrpYtOwlNd2w7P1l1tAr3wjgZzaoXJWoA6Gsosn51sg/viewform"
                           target="_blank"
                           rel="noreferrer"
                           className={cn(

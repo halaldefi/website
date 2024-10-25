@@ -7,9 +7,10 @@ import { Icons } from "@/components/shared/icons";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 
 export const metadata = constructMetadata({
-  title: "Tokenomics – Halal.io",
+  title: "Halal DeFi Tokenomics - $HDF Token Distribution",
   description:
-    "Halal DeFi is a Shariah-compliant venture fund on the blockchain, providing access to high-growth opportunities in Web3. Each investment aligns with the principles of Islamic finance—no riba, no compromise.",
+    "Discover Halal DeFi’s $HDF tokenomics, with 100M tokens allocated for ethical investing and liquidity on decentralized exchanges. No team tokens; community ownership drives value and transparency in blockchain investments.",
+  keywords: ["$HDF tokenomics", "Shariah-compliant crypto", "decentralized exchanges", "blockchain transparency", "ethical investment", "community-driven fund", "Halal DeFi"] 
 });
 
 export default async function Tokenomics() {

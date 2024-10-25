@@ -267,9 +267,10 @@ export default function WhyHalal() {
                     <Link
                       href="https://getwaitlist.com/waitlist/8535"
                       prefetch={true}
+                      target="_blank"
                       className={cn(
                         buttonVariants({ rounded: "full" }),
-                        "mt-10 gap-2 p-4 pl-2",
+                        "mt-10 gap-2 p-4",
                       )}
                     >
                       <span> Invest in $HDF</span>

@@ -15,7 +15,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
     <footer className={cn("border-t", className)}>
       <div className="container grid grid-cols-2 gap-6 px-6 pb-10 pt-14 md:grid-cols-9 md:px-16">
         <div className="col-span-full flex flex-col sm:col-span-1 lg:col-span-3">
-          <div>
+          <div className="flex">
             <Image
               src="/_static/landing/Logo.png"
               alt="Background"
@@ -24,6 +24,9 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
               objectFit="cover"
               quality={100}
             />
+            <div className="ml-3 flex items-center text-lg font-semibold">
+              Halal <span className="text-gradient_halal ml-1">DeFi</span>
+            </div>
           </div>
           <div className="mt-4">
             <p className="text-sm">
@@ -45,7 +48,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
                     <Link
                       href={link.href}
                       className="text-sm text-muted-foreground hover:text-primary"
-                      target={link.id === 8 ? '_blank' : '_self'}
+                      target={link.id === 8 ? "_blank" : "_self"}
                     >
                       {link.title}
                     </Link>
@@ -76,6 +79,13 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
               rel="noopener noreferrer"
             >
               <Icons.twitter className="size-8 cursor-pointer rounded-full border p-2" />
+            </a>
+            <a
+              href="https://github.com/halaldefi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icons.gitHub className="size-8 cursor-pointer rounded-full border p-2" />
             </a>
             <a
               href="https://t.me/yourTelegramProfile"

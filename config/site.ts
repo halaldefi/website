@@ -21,17 +21,18 @@ export const footerLinks: SidebarNavItem[] = [
     id: 1,
     items: [
       { title: "Home", href: "/", id: 1 },
-      { title: "Trade", href: "trade", id: 2 },
+      // { title: "Trade", href: "trade", id: 2 },
       { title: "About Us", href: "about", id: 3 },
       { title: "Tokenomics", href: "tokenomics", id: 4 },
+      { title: "FAQs", href: "faq", id: 6 },
     ],
   },
   {
     title: "",
     id: 2,
     items: [
-      { title: "Blog", href: "#", id: 5 },
-      { title: "FAQs", href: "faq", id: 6 },
+      { title: "Blog", href: "https://blog.halal.io/", id: 5 },
+      
       { title: "Terms of Use", href: "terms", id: 7 },
       { title: "Contact Us", href: "https://docs.google.com/forms/d/e/1FAIpQLSeUL1wFrpYtOwlNd2w7P1l1tAr3wjgZzaoXJWoA6Gsosn51sg/viewform", id: 8 },
     ],
