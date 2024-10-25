@@ -48,10 +48,10 @@ export default async function About() {
             </div>
             <div className="relative mt-3 flex min-h-72 w-full items-end p-8 md:w-2/5">
               <p className="font-semibold">
-                Investing according to Islamic principles isn&apos;t just about
-                financial gain, it&apos;s a commitment to aligning your wealth
-                with your values. Halal investing is not exclusive to Muslims;
-                it offers a disciplined and ethical framework for growing wealth
+                Investing according to Islamic principles isn't just about
+                financial gain—it's a commitment to aligning your wealth with
+                your values. Halal investing is not exclusive to Muslims; it
+                offers a disciplined and ethical framework for growing wealth
                 that can benefit everyone.
               </p>
             </div>
@@ -259,7 +259,7 @@ export default async function About() {
                       </p>
                       <div className="mt-3 space-x-2 md:space-x-4">
                         <Link
-                          href={"/"}
+                          href="https://getwaitlist.com/waitlist/8535"
                           target="_blank"
                           rel="noreferrer"
                           className={cn(
