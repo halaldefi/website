@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { toast } from "@/components/ui/use-toast";
-import { postMember } from "@/actions/addMember";
+// import { postMember } from "@/actions/addMember";
 
 const FormSchema = z.object({
   email: z.string().email({
@@ -35,11 +35,11 @@ export function NewsletterForm() {
   async function onSubmit(data: z.infer<typeof FormSchema>) {
     setIsLoading(true);
     try {
-      await postMember(data.email);
-      toast({
-        title: "Success",
-        description: 'Successfully subscribed',
-      });
+      // await postMember(data.email);
+      // toast({
+      //   title: "Success",
+      //   description: 'Successfully subscribed',
+      // });
     } catch (error) {
       toast({
         title: "Success",
