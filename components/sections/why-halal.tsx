@@ -265,7 +265,7 @@ export default function WhyHalal() {
                       intermediaries.
                     </p>
                     <Link
-                      href="#"
+                      href="https://getwaitlist.com/waitlist/8535"
                       prefetch={true}
                       className={cn(
                         buttonVariants({ rounded: "full" }),

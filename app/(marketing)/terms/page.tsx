@@ -664,7 +664,7 @@ export default async function TermsOfUse() {
 
             <div className="flex justify-center space-x-2 md:space-x-4">
               <Link
-                href={"/"}
+                href="https://getwaitlist.com/waitlist/8535"
                 target="_blank"
                 rel="noreferrer"
                 className={cn(
@@ -683,7 +683,7 @@ export default async function TermsOfUse() {
                 </p>
               </Link>
               <Link
-                href={"/"}
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeUL1wFrpYtOwlNd2w7P1l1tAr3wjgZzaoXJWoA6Gsosn51sg/viewform"
                 target="_blank"
                 rel="noreferrer"
                 className={cn(
