@@ -51,7 +51,7 @@ export default async function TermsOfUse() {
             investments in ethical Web3 and blockchain projects. By leveraging
             blockchain technology, Halal.io provides users with the opportunity
             to participate in a variety of financial transactions in a manner
-            consistent with Islamic principles. These Terms of Use ("Terms")
+            consistent with Islamic principles. These Terms of Use (&quot;Terms&quot;)
             govern your access to and use of the Halal.io platform, which
             includes interactions with smart contracts, token transactions, and
             other services offered through our website and associated tools.
@@ -447,7 +447,7 @@ export default async function TermsOfUse() {
             7.1 General Limitation
           </div>
           <div className="px-5 pt-2 text-sm">
-            Halal.io is provided "as is" without warranties of any kind, either
+            Halal.io is provided &quot;as is&quot; without warranties of any kind, either
             express or implied. This includes but is not limited to implied
             warranties of merchantability, fitness for a particular purpose, and
             non-infringement. Halal.io does not guarantee that the platform will
