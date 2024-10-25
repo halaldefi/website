@@ -21,7 +21,7 @@ export default function WhyHalal() {
       >
         <div className="w-[95%] rounded-2xl bg-white md:w-[98%] lg:w-[98%]">
           <MaxWidthWrapper className="mt-14">
-            <HeaderSection title="Why Halal Defi?" />
+            <HeaderSection title="Why Halal DeFi?" />
 
             <div className="relative z-10 mt-20 grid grid-cols-7 gap-3">
               <div className="relative col-span-full flex overflow-hidden rounded-2xl bg-[#F8F8F8] lg:col-span-7">

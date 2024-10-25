@@ -157,7 +157,7 @@ export default async function About() {
 
             <div className="rounded-xl p-6 pt-0 md:items-stretch">
               <div className="text-balance py-4 font-urban text-2xl font-semibold tracking-tight sm:text-5xl md:py-6 md:text-6xl lg:text-[50px]">
-                Our<span className="text-gradient_halal">Business Model</span>
+                Our<span className="text-gradient_halal"> Business Model</span>
               </div>
               <div className="flex flex-col md:flex-row">
                 <div className="relative flex items-center">
