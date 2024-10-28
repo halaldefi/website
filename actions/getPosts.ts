@@ -9,7 +9,7 @@ export async function getPosts() {
   //   "slug,title,feature_image,feature_image_alt,published_at,updated_at,excerpt,reading_time";
   const url = 'https://halal-defi.ghost.io'
   const key = 'd19290b537379ac5066539ff5d'
-  const postsUrl = `${url}/ghost/api/content/posts/?key=${key}&include=tags,authors&filter=featured:true`;
+  const postsUrl = `${url}/ghost/api/content/posts/?key=${key}&include=tags,authors&filter=featured:true&limit=3`;
 
   const postsResponse = await fetch(postsUrl).then(async function (res) {
     const status = res.status;
