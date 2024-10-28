@@ -72,7 +72,7 @@ export function NavMobile() {
               // onClick={() => setOpen(false)}
               className="flex w-full font-medium capitalize"
             >
-              Invest in $HDF
+              Get Early Access
             </Link>
           </li>
         </ul>

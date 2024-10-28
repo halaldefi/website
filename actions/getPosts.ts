@@ -9,7 +9,7 @@ export async function getPosts() {
   //   "slug,title,feature_image,feature_image_alt,published_at,updated_at,excerpt,reading_time";
   const url = 'https://halal-defi.ghost.io'
   const key = 'd19290b537379ac5066539ff5d'
-  const postsUrl = `${url}/ghost/api/content/posts/?key=${key}&include=authors,tags&order=published_at%20desc`;
+  const postsUrl = `${url}/ghost/api/content/posts/?key=${key}&include=tags,authors&filter=featured:true`;
 
   const postsResponse = await fetch(postsUrl).then(async function (res) {
     const status = res.status;
@@ -25,12 +25,12 @@ export async function getPosts() {
 
   if (posts == undefined) posts = [];
 
-  posts.map(
-    (post: IPost) => (
-      (post.published_at = post.published_at.split("T")[0]),
-      (post.updated_at = post.updated_at.split("T")[0])
-    ),
-  );
+  // posts.map(
+  //   (post: IPost) => (
+  //     (post.published_at = post.published_at.split("T")[0]),
+  //     (post.updated_at = post.updated_at.split("T")[0])
+  //   ),
+  // );
 
   return posts;
 }

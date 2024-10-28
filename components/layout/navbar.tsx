@@ -89,7 +89,7 @@ export function NavBar({ scroll = false }: NavBarProps) {
               window.open("https://getwaitlist.com/waitlist/8535", "_blank")
             }
           >
-            <span>Invest in $HDF</span>
+            <span>Get Early Access</span>
             <Icons.arrowRight className="size-4" />
           </Button>
         </div>

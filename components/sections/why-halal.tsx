@@ -55,7 +55,7 @@ export default function WhyHalal() {
                         market.
                       </p>
                       <Link
-                        href="https://getwaitlist.com/waitlist/8535"
+                        href="https://blog.halal.io/unlocking-early-stage-access-to-high-growth-web3-projects-with-halal-defi/"
                         target="_blank"
                         rel="noreferrer"
                         className={cn(
@@ -72,7 +72,7 @@ export default function WhyHalal() {
                       >
                         <p>
                           <span className="sm:inline-block">
-                            Try it for free!
+                          More Information
                           </span>
                         </p>
                       </Link>

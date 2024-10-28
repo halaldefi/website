@@ -18,17 +18,17 @@ const halalData = [
         <div style='font-weight:bold;margin-top:30px'>How it Works:</div>
         <li style="margin-left:20px;margin-top:10px"><span style='font-weight:bold'>Buy $HDF Tokens:</span> Purchase $HDF tokens through our platform. These tokens represent your share in our investment fund.</li>
         <li style="margin-left:20px;margin-top:10px"><span style='font-weight:bold'>Invest:</span> We pool your funds and invest them in Shariah-compliant blockchain projects and engage in ethical, strategic trading.</li>
-        <li style="margin-left:20px;margin-top:10px"><span style='font-weight:bold'>Grow:</span> As these projects succeed and generate returns, the value of your $HDF tokens increases, giving you a profitable and ethical investment.</li>
+        <li style="margin-left:20px;margin-top:10px"><span style='font-weight:bold'>Grow:</span> As these projects succeed and generate returns, <a target="_blank" href="https://blog.halal.io/how-does-the-hdf-token-go-up-in-value-understanding-halal-defis-business-model/" class="custom-contact-link" style="color: black; text-decoration: underline !important;">the value of your $HDF tokens increases,</a> giving you a profitable and ethical investment.</li>
       </div>
     `,
   },
   {
     id: "item-2",
-    question: "Is Halal DeFi compliant with Islamic finance principles?",
+    question: "Do you have a Shariah certificate, audit, or Shariah board for Halal DeFi's investments?",
     isHtml: true,
     answer: `
       <div>
-        Yes, Halal DeFi adheres to Islamic finance principles. All investments are vetted by a qualified Shariah Advisor to ensure they are free from interest (riba), excessive speculation (gharar), and non-permissible activities.
+        Halal DeFi does not have a formal Shariah certificate, audit, or traditional Shariah board. Instead, we take a practical approach suited for the dynamic blockchain space. We consult with a trusted network of Islamic finance scholars and conduct in-depth research for each investment. Our guiding principle is rooted in Islamic jurisprudence: everything is considered halal unless proven otherwise. For a deeper dive into our philosophy, <a target="_blank" href="https://blog.halal.io/shariah-compliance-in-crypto-halal-defi-perspective/" class="custom-contact-link" style="color: black; text-decoration: underline !important;">read more here</a>.
       </div>
     `,
   },
@@ -51,7 +51,7 @@ const halalData = [
     isHtml: true,
     answer: `
       <div>
-        Halal DeFi operates as a <span class='text-gradient_halal' style='font-weight:bold'>Shariah-compliant decentralized venture capital fund,</span> allowing investors to participate in high-potential blockchain and Web3 projects.
+        Halal DeFi operates as a <span style='font-weight:bold'>Shariah-compliant decentralized venture capital fund,</span> allowing investors to participate in high-potential blockchain and Web3 projects.
         <div style='font-weight:bold;margin-top:30px'>Our business model revolves around two main revenue streams:</div>
         <li style="margin-left:20px;margin-top:10px"><span style='font-weight:bold'>Investment Management:</span> Funds from token sales are strategically invested in Shariah-compliant projects, with the goal of delivering long-term value growth for token holders.</li>
         <li style="margin-left:20px;margin-top:10px"><span style='font-weight:bold'>Strategic Trading:</span> We engage in ethical trading of blockchain assets to capitalize on market opportunities, generating additional returns for investors.</li>
@@ -77,7 +77,7 @@ const halalData = [
     isHtml: true,
     answer: `
       <div>
-        $HDF tokens will be tradable on major decentralized exchanges, including <span class='text-gradient_halal' style='font-weight:bold'>PancakeSwap</span> and <span class='text-gradient_halal' style='font-weight:bold'>Uniswap</span>, starting in <span class='text-gradient_halal' style='font-weight:bold'> May 2025.</span> These permissionless exchanges allow you to buy and sell freely, without intermediaries or restrictions.
+        $HDF tokens will be tradable on major decentralized exchanges, including <span style='font-weight:bold'>PancakeSwap</span> and <span style='font-weight:bold'>Uniswap</span>, starting in <span style='font-weight:bold'> May 2025.</span> These permissionless exchanges allow you to buy and sell freely, without intermediaries or restrictions.
       </div>
     `,
   },
@@ -87,7 +87,7 @@ const halalData = [
     isHtml: true,
     answer: `
       <div>
-        Investing in $HDF tokens early secures the best price. The price of $HDF starts at <span class='text-gradient_halal' style='font-weight:bold'>$0.10</span> and increases automatically by <span class='text-gradient_halal' style='font-weight:bold'>2%</span> for every million tokens sold. By investing early, you lock in a lower price before it rises and benefit as the value of the tokens appreciates.
+        Investing in $HDF tokens early secures the best price. The price of $HDF starts at <span style='font-weight:bold'>$0.10</span> and increases automatically by <span style='font-weight:bold'>2%</span> for every million tokens sold. By investing early, you lock in a lower price before it rises and benefit as the value of the tokens appreciates.
       </div>
     `,
   },
@@ -97,7 +97,7 @@ const halalData = [
     isHtml: true,
     answer: `
       <div>
-        $HDF tokens are deployed on both <span class='text-gradient_halal' style='font-weight:bold'>Binance Smart Chain (BSC)</span> and <span class='text-gradient_halal' style='font-weight:bold'>Arbitrum</span>, providing cross-chain compatibility. You can seamlessly move tokens across these networks, ensuring flexibility for trading.
+        $HDF tokens are deployed on both <span style='font-weight:bold'>Binance Smart Chain (BSC)</span> and <span style='font-weight:bold'>Arbitrum</span>, providing cross-chain compatibility. You can seamlessly move tokens across these networks, ensuring flexibility for trading.
       </div>
     `,
   },
@@ -107,7 +107,7 @@ const halalData = [
     isHtml: true,
     answer: `
       <div>
-        Returns on $HDF tokens depend on the success of our investments. While we aim for a <span class='text-gradient_halal' style='font-weight:bold'>22% Internal Rate of Return (IRR)</span> by focusing on early-stage blockchain projects, returns are not guaranteed. The cryptocurrency market is volatile, and returns may vary based on market conditions.
+        Returns on $HDF tokens depend on the success of our investments. While we aim for a <a target="_blank" href="https://blog.halal.io/how-halal-defi-targets-a-22-irr-sustainable-ethical-growth/" class="custom-contact-link" style="color: black; text-decoration: underline !important;">22% Internal Rate of Return (IRR)</a> by focusing on early-stage blockchain projects, returns are not guaranteed. The cryptocurrency market is volatile, and returns may vary based on market conditions.
         <br/><br/>
         Islamic finance emphasizes transparency and risk-sharing. Prophet Muhammad (PBUH) said, “The two parties in a business transaction have the right to annul it as long as they have not separated. If they are truthful and transparent, they will be blessed in their transaction, but if they hide the truth and lie, the blessing of the transaction will be erased.” (Sahih Muslim)
       </div>
@@ -119,10 +119,10 @@ const halalData = [
     isHtml: true,
     answer: `
       <div>
-        The total supply of $HDF tokens is permanently fixed at <span class='text-gradient_halal' style='font-weight:bold'>100 million tokens</span>. No additional tokens will be created, ensuring scarcity over time.
+        The total supply of $HDF tokens is permanently fixed at <span style='font-weight:bold'>100 million tokens</span>. No additional tokens will be created, ensuring scarcity over time.
         <div style='font-weight:bold;margin-top:30px'>Allocation:</div>
-        <li style="margin-left:20px;margin-top:10px"><span class='text-gradient_halal' style='font-weight:bold'>90 million tokens</span> are available for public sale.</li>
-        <li style="margin-left:20px;margin-top:10px"><span class='text-gradient_halal' style='font-weight:bold'>10 million tokens</span> are reserved for liquidity on decentralized exchanges like Uniswap and PancakeSwap, ensuring smooth trading.</li>
+        <li style="margin-left:20px;margin-top:10px"><span style='font-weight:bold'>90 million tokens</span> are available for public sale.</li>
+        <li style="margin-left:20px;margin-top:10px"><span style='font-weight:bold'>10 million tokens</span> are reserved for liquidity on decentralized exchanges like Uniswap and PancakeSwap, ensuring smooth trading.</li>
       </div>
     `,
   },
@@ -146,7 +146,7 @@ const halalData = [
     isHtml: true,
     answer: `
       <div>
-        We invest in <span class='text-gradient_halal' style='font-weight:bold'>Shariah-compliant Web3 and blockchain projects</span> that have high growth potential. We also engage in <span class='text-gradient_halal' style='font-weight:bold'>ethical trading </span>on decentralized exchanges. As our investments succeed, the value of $HDF tokens increases.
+        We invest in <a target="_blank" href="https://blog.halal.io/unlocking-early-stage-access-to-high-growth-web3-projects-with-halal-defi/ " class="custom-contact-link" style="color: black; text-decoration: underline !important;">Shariah-compliant Web3 and blockchain projects</a> that have high growth potential. We also engage in <span style='font-weight:bold'>ethical trading </span>on decentralized exchanges. As our investments succeed, the value of $HDF tokens increases.
       </div>
     `,
   },
@@ -156,7 +156,7 @@ const halalData = [
     isHtml: true,
     answer: `
       <div>
-        Halal DeFi is currently not regulated under traditional financial frameworks, as it operates as a decentralized platform. However, we are transitioning into a <span class='text-gradient_halal' style='font-weight:bold'>Decentralized Autonomous Organization (DAO)</span> under the <span class='text-gradient_halal' style='font-weight:bold'>RAK Digital Assets Oasis (RAK DAO)</span> in the UAE, which offers a legal framework for decentralized projects.
+        Halal DeFi is currently not regulated under traditional financial frameworks, as it operates as a decentralized platform. However, we are transitioning into a <span style='font-weight:bold'>Decentralized Autonomous Organization (DAO)</span> under the <span style='font-weight:bold'>RAK Digital Assets Oasis (RAK DAO)</span> in the UAE, which offers a legal framework for decentralized projects.
       </div>
     `,
   },
@@ -166,7 +166,7 @@ const halalData = [
     isHtml: true,
     answer: `
       <div>
-        Halal DeFi is <span class='text-gradient_halal' style='font-weight:bold'>non-custodial</span>, meaning you control your own wallet and private keys. Your assets remain fully under your control, and Halal DeFi does not hold your funds.
+        Halal DeFi is <span style='font-weight:bold'>non-custodial</span>, meaning you control your own wallet and private keys. Your assets remain fully under your control, and Halal DeFi does not hold your funds.
       </div>
     `,
   },
@@ -177,7 +177,7 @@ const halalData = [
     answer: `
       <div>
         <li style="margin-left:20px;margin-top:10px"><span style='font-weight:bold'>Non-Custodial:</span> You maintain full control of your funds.</li>
-        <li style="margin-left:20px;margin-top:10px"><span style='font-weight:bold'>Safe Vault:</span> Our platform’s funds are secured by Safe Vault’s multisig wallet, requiring multiple approvals for transactions.</li>
+        <li style="margin-left:20px;margin-top:10px"><span style='font-weight:bold'>Safe Vault:</span> Our platform's funds are secured by Safe Vault's multisig wallet, requiring multiple approvals for transactions.</li>
         <li style="margin-left:20px;margin-top:10px"><span style='font-weight:bold'>Blockchain Transparency:</span> All transactions are recorded on the blockchain, ensuring transparency.</li>
       </div>
     `,
@@ -189,7 +189,7 @@ const halalData = [
     isHtml: true,
     answer: `
       <div>
-        Halal DeFi modernizes Islamic finance by using <span class='text-gradient_halal' style='font-weight:bold'>blockchain technology</span> to offer more transparency, flexibility, and global access. Unlike traditional Islamic banks, Halal DeFi is decentralized—you control your assets, and all transactions are recorded on the blockchain for real-time transparency. You also gain access to <span class='text-gradient_halal' style='font-weight:bold'>emerging blockchain projects</span> that have higher growth potential than traditional Islamic finance options.
+        Halal DeFi modernizes Islamic finance by using <span style='font-weight:bold'>blockchain technology</span> to offer more transparency, flexibility, and global access. Unlike traditional Islamic banks, Halal DeFi is decentralized—you control your assets, and all transactions are recorded on the blockchain for real-time transparency. You also gain access to <span style='font-weight:bold'>emerging blockchain projects</span> that have higher growth potential than traditional Islamic finance options.
       </div>
     `,
   },
