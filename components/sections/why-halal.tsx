@@ -57,6 +57,7 @@ export default function WhyHalal() {
                       <Link
                         href="https://blog.halal.io/unlocking-early-stage-access-to-high-growth-web3-projects-with-halal-defi/"
                         target="_blank"
+                        aria-label="More information on Shariah-compliant Web3 and blockchain projects"
                         rel="noreferrer"
                         className={cn(
                           buttonVariants({

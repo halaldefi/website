@@ -69,6 +69,7 @@ export default function HeroLanding() {
           </Link>
           <Link
             href="/tokenomics"
+            aria-label="Learn more about Halal"
             rel="noreferrer"
             className={cn(
               buttonVariants({
