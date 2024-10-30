@@ -22,7 +22,7 @@ export default async function FAQ() {
       <section className="relative space-y-6 overflow-hidden py-12 sm:py-36 lg:py-36">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/_static/landing/Vector.png"
+            src="/_static/landing/Vector.webp"
             alt="Background"
             layout="fill"
             objectFit="cover"
@@ -51,7 +51,7 @@ export default async function FAQ() {
           {/* Background layers */}
           <div className="absolute inset-0 z-10">
             <Image
-              src="/_static/landing/Vector.png"
+              src="/_static/landing/Vector.webp"
               alt="Background"
               layout="fill"
               objectFit="cover"

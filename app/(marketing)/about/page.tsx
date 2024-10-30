@@ -25,7 +25,7 @@ export default async function About() {
       <section className="relative overflow-hidden py-12 sm:py-36 lg:py-36">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/_static/landing/Vector.png"
+            src="/_static/landing/Vector.webp"
             alt="Background"
             layout="fill"
             objectFit="cover"

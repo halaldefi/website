@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useContext } from "react";
@@ -41,13 +42,11 @@ export function NavBar({ scroll = false }: NavBarProps) {
       >
         <div className="flex">
           <Link href="/" className="flex items-center space-x-1.5">
-            <Image
+            <img
               src="/_static/landing/Logo.png"
               alt="Background"
               width={40}
               height={40}
-              objectFit="cover"
-              quality={100}
             />
             <div className="ml-3 flex items-center text-lg font-semibold">
               Halal <span className="text-gradient_halal ml-1">DeFi</span>

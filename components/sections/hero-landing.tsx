@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,12 +12,9 @@ export default function HeroLanding() {
     <section className="relative space-y-6 overflow-hidden py-12 sm:py-20 lg:py-20">
       {/* Background layers */}
       <div className="absolute inset-0 z-0">
-        <Image
+        <img
           src="/_static/landing/Vector.webp"
           alt="Background"
-          layout="fill"
-          objectFit="cover"
-          quality={100}
         />
       </div>
       <div
@@ -34,7 +32,7 @@ export default function HeroLanding() {
           href="/"
           className={cn(
             buttonVariants({ variant: "outline", size: "sm", rounded: "full" }),
-            " cursor-default px-4" ,
+            "cursor-default px-4",
           )}
         >
           <span className="mr-3">
