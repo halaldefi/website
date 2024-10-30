@@ -41,7 +41,7 @@ export default function WhyHalal() {
                       quality={100}
                     />
                   </div>
-                  <div className="z-20 flex w-full flex-col flex-wrap p-16 lg:flex-row">
+                  <div className="z-20 flex w-full flex-col flex-wrap p-8 lg:p-16 lg:flex-row">
                     <div className="w-full lg:w-3/5">
                       <p className="text-4xl text-white lg:w-3/5">
                         Early Access to High-Growth Web3 Projects
@@ -124,7 +124,7 @@ export default function WhyHalal() {
                     <div className="absolute inset-0 bg-gradient-to-bl from-transparent to-[#F8F8F8]"></div>
                     <Icons.xy_grid className="size-full" />
                   </div>
-                  <div className="absolute bottom-0 z-10 mb-6 space-y-1.5 px-6">
+                  <div className="absolute bottom-0 z-10 mb-6 space-y-1.5 pt-6 px-6">
                     <h1 className="mr-16 text-4xl font-semibold text-foreground lg:mb-10 lg:w-2/4">
                       Sustainable, High-Value Returns
                     </h1>
@@ -169,7 +169,7 @@ export default function WhyHalal() {
                   <div className="hidden w-2/6 items-center justify-center p-4 lg:flex">
                     <Icons.shield_yellow />
                   </div>
-                  <div className="z-10 my-6 items-center justify-center gap-4 space-y-1.5 px-10 lg:my-0 lg:flex lg:w-4/6 lg:flex-col">
+                  <div className="z-10 my-6 items-center justify-center gap-4 space-y-1.5 px-6 lg:my-0 lg:flex lg:w-4/6 lg:flex-col">
                     <h1 className="mr-16 text-4xl font-semibold text-foreground">
                       Transparent and Secure
                     </h1>
@@ -199,7 +199,7 @@ export default function WhyHalal() {
                     <h1 className="mb-4 mt-6 text-4xl font-semibold text-foreground lg:mb-10 lg:mr-16 lg:w-3/5">
                       Global Reach, Shared Values
                     </h1>
-                    <p className="w-[70%] text-left text-[14px]">
+                    <p className="lg:w-[70%] w-full text-left text-[14px]">
                       With over 1.8 billion Muslims worldwide, Halal DeFi taps
                       into a growing market of investors who are seeking both
                       financial returns and ethical alignment. Join a global
@@ -277,7 +277,7 @@ export default function WhyHalal() {
                       <span> Invest in $HDF</span>
                     </Link>
                   </div>
-                  <div className="relative size-full rounded-3xl lg:w-2/4">
+                  <div className="relative size-full rounded-3xl lg:w-2/4 hidden lg:block">
                     <div className="card relative size-full overflow-hidden rounded-3xl">
                       <div className="content relative flex h-full justify-center">
                         <div className="left flex items-center justify-center">

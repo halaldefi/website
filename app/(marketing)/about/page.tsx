@@ -245,7 +245,7 @@ export default async function About() {
                       quality={100}
                     />
                   </div>
-                  <div className="z-20 flex w-full flex-col flex-wrap p-16 lg:flex-row">
+                  <div className="z-20 flex w-full flex-col flex-wrap p-8 lg:p-16 lg:flex-row">
                     <div className="w-full lg:w-2/5">
                       <p className="text-2xl font-semibold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-[50px]">
                         Join Us on This Journey

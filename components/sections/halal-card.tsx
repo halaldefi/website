@@ -9,7 +9,7 @@ export default function HalalCard() {
     <section>
       <div className="align-center flex w-full justify-center bg-[#F8F8F8]">
         <div className="w-[95%] bg-[#F8F8F8] md:w-[98%] lg:w-[98%]">
-          <div className="relative z-10 mt-20 grid grid-cols-7 gap-3">
+          <div className="relative z-10 grid grid-cols-7 gap-3">
             <div className="relative col-span-full flex overflow-hidden rounded-2xl lg:col-span-7">
               <div
                 className="card relative size-full overflow-hidden rounded-3xl"
@@ -27,7 +27,7 @@ export default function HalalCard() {
                     quality={100}
                   />
                 </div>
-                <div className="relative z-20 flex w-full flex-col flex-wrap p-16 lg:flex-row">
+                <div className="relative z-20 flex w-full flex-col flex-wrap p-8 lg:p-16 lg:flex-row">
                   <div className="w-full lg:w-2/5">
                     <p className="text-6xl font-semibold text-white">
                       Who We Are
