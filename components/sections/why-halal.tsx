@@ -106,7 +106,7 @@ export default function WhyHalal() {
                   <h1 className="text-4xl font-semibold text-foreground lg:mr-2 lg:text-2xl xl:mr-10 xl:text-4xl">
                     Ethical Investments
                   </h1>
-                  <p className="text-left text-[14px] text-muted-foreground">
+                  <p className="text-left text-[14px]">
                     Our commitment to Islamic financial principles guides every
                     investment decision. We strictly avoid riba (interest),
                     gambling, and other non-permissible activities, focusing
@@ -127,7 +127,7 @@ export default function WhyHalal() {
                     <h1 className="mr-16 text-4xl font-semibold text-foreground lg:mb-10 lg:w-2/4">
                       Sustainable, High-Value Returns
                     </h1>
-                    <p className="text-left text-[14px] text-muted-foreground lg:w-2/4">
+                    <p className="text-left text-[14px] lg:w-2/4">
                       We aim for a target Internal Rate of Return (IRR) of 22%
                       through disciplined project selection and active asset
                       management. Our focus is on delivering sustainable growth
@@ -172,7 +172,7 @@ export default function WhyHalal() {
                     <h1 className="mr-16 text-4xl font-semibold text-foreground">
                       Transparent and Secure
                     </h1>
-                    <p className="text-left text-[14px] text-muted-foreground">
+                    <p className="text-left text-[14px]">
                       Transparency is paramount in our operations. Every
                       transaction is publicly recorded, and all funds are stored
                       in multi-signature vaults, adding extra layers of security
@@ -198,7 +198,7 @@ export default function WhyHalal() {
                     <h1 className="mb-4 mt-6 text-4xl font-semibold text-foreground lg:mb-10 lg:mr-16 lg:w-3/5">
                       Global Reach, Shared Values
                     </h1>
-                    <p className="w-[70%] text-left text-[14px] text-muted-foreground">
+                    <p className="w-[70%] text-left text-[14px]">
                       With over 1.8 billion Muslims worldwide, Halal DeFi taps
                       into a growing market of investors who are seeking both
                       financial returns and ethical alignment. Join a global

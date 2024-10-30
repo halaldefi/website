@@ -30,6 +30,7 @@ export default function HeroLanding() {
       <div className="container relative z-20 flex max-w-5xl flex-col items-center gap-5 text-center">
         <Link
           href="/"
+          aria-label="Start investing with just $10. Open to everyone."
           className={cn(
             buttonVariants({ variant: "outline", size: "sm", rounded: "full" }),
             "cursor-default px-4",
