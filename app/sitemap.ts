@@ -1,7 +1,7 @@
 // app/sitemap.ts
 import { MetadataRoute } from 'next'
 
-const baseUrl = 'https://halal.io/'
+const baseUrl = 'https://halal.io'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastUpdated = new Date('2024-10-30') // Update this when you deploy new content
