@@ -64,7 +64,7 @@ const halalData = [
     isHtml: true,
     answer: `
       <div>
-        <li style="margin-left:20px;margin-top:10px"><span style='font-weight:bold'>Buy $HDF Tokens:</span> Purchase $HDF tokens on our website. You will also be able to buy/sell tokens on decentralized exchanges like Uniswap and PancakeSwap starting in May 2025.</li>
+        <li style="margin-left:20px;margin-top:10px"><span style='font-weight:bold'>Buy $HDF Tokens:</span> Purchase $HDF tokens on our website. You will also be able to buy/sell tokens on decentralized exchanges like Uniswap and PancakeSwap starting in November 2025.</li>
         <li style="margin-left:20px;margin-top:10px"><span style='font-weight:bold'>Store Your Tokens:</span> Keep your tokens in your own wallet—Halal DeFi is non-custodial, meaning you control your assets.</li>
         <li style="margin-left:20px;margin-top:10px"><span style='font-weight:bold'>Monitor Growth:</span> Track your $HDF token performance as our investments generate returns.</li>
         <li style="margin-left:20px;margin-top:10px"><span style='font-weight:bold'>Trade Anytime:</span> You can buy or sell $HDF tokens without restrictions, 365 days a year.</li>

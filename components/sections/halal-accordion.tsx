@@ -28,7 +28,7 @@ const halalData = [
     id: "item-4",
     question: "Track and Trade Your Tokens",
     answer:
-      "All transactions are recorded on the blockchain, providing full transparency. Starting in May 2025, you can trade your $HDF tokens on decentralized exchanges like PancakeSwap and Uniswap. Hold your tokens for long-term growth or trade them at your convenience—there’s no lock-up period.",
+      "All transactions are recorded on the blockchain, providing full transparency. Starting in November 2025, you can trade your $HDF tokens on decentralized exchanges like PancakeSwap and Uniswap. Hold your tokens for long-term growth or trade them at your convenience—there’s no lock-up period.",
   },
 ];
 

@@ -260,7 +260,7 @@ export default function WhyHalal() {
                       but with Halal DeFi, you have full liquidity. You can buy
                       or sell{" "}
                       <span className="font-bold">$HDF tokens anytime.</span>{" "}
-                      Starting May 2025, $HDF will be listed on major
+                      Starting November 2025, $HDF will be listed on major
                       decentralized exchanges like PancakeSwap and Uniswap,
                       where you can trade freely without restrictions or
                       intermediaries.
