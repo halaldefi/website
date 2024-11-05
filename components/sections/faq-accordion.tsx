@@ -77,7 +77,7 @@ const halalData = [
     isHtml: true,
     answer: `
       <div>
-        $HDF tokens will be tradable on major decentralized exchanges, including <span style='font-weight:bold'>PancakeSwap</span> and <span style='font-weight:bold'>Uniswap</span>, starting in <span style='font-weight:bold'> May 2025.</span> These permissionless exchanges allow you to buy and sell freely, without intermediaries or restrictions.
+        $HDF tokens will be tradable on major decentralized exchanges, including <span style='font-weight:bold'>PancakeSwap</span> and <span style='font-weight:bold'>Uniswap</span>, starting in <span style='font-weight:bold'> November 2025.</span> These permissionless exchanges allow you to buy and sell freely, without intermediaries or restrictions.
       </div>
     `,
   },
