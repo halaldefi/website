@@ -94,11 +94,10 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
             >
               <Icons.telegram className="size-8 cursor-pointer rounded-full border p-2" />
             </a>
-            <a
-              rel="noopener noreferrer"
+            <div
             >
               <Icons.youtube className="size-8 cursor-pointer rounded-full border p-2" />
-            </a>
+            </div>
           </div>
         </div>
       </div>
