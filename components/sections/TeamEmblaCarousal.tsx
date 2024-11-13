@@ -22,18 +22,18 @@ const TeamEmblaCarousel: React.FC<PropType> = (props) => {
       role: "Founder",
       linkedin: "https://in.linkedin.com/in/shuhaib",
     },
-    {
-      img: "Hamza.jpeg",
-      name: "Hamza Ahmed",
-      role: "Lead Engineer",
-      linkedin: "https://in.linkedin.com/in/ahmed-hamza-679067104",
-    },
-    {
-      img: "John.jpg",
-      name: "John Hashim",
-      role: "Lead Engineer",
-      linkedin: "https://www.linkedin.com/in/john-hashim/",
-    },
+    // {
+    //   img: "Hamza.jpeg",
+    //   name: "Hamza Ahmed",
+    //   role: "Lead Engineer",
+    //   linkedin: "https://in.linkedin.com/in/ahmed-hamza-679067104",
+    // },
+    // {
+    //   img: "John.jpg",
+    //   name: "John Hashim",
+    //   role: "Lead Engineer",
+    //   linkedin: "https://www.linkedin.com/in/john-hashim/",
+    // },
   ];
 
   const { options } = props;
@@ -47,7 +47,7 @@ const TeamEmblaCarousel: React.FC<PropType> = (props) => {
   } = usePrevNextButtons(emblaApi);
 
   return (
-    <section className="embla1 mx-20">
+    <section className="embla1 pb-3 w-3/4 md:w-2/5 lg:w-1/4 mx-20">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           {slides.map((item, index) => (

@@ -110,13 +110,14 @@
 
 
 .embla1 {
+  margin: auto;
   --slide-height: 30rem;
   --slide-spacing: 1rem;
   --slide-size: 100%;
   --slide-spacing-sm: 1.6rem;
-  --slide-size-sm: 50%;
+  --slide-size-sm: 100%;
   --slide-spacing-lg: 2rem;
-  --slide-size-lg: calc(100% / 3);
+  --slide-size-lg: 100%;
 }
 .embla2 {
   --slide-height: 19rem;

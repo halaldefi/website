@@ -27,16 +27,17 @@ export default function RootLayout({ children }: RootLayoutProps) {
           fontGeist.variable,
         )}
       >
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="white"
-            enableSystem
-            disableTransitionOnChange
-          >
-            <ModalProvider>{children}</ModalProvider>
-            <Toaster richColors closeButton />
-            <TailwindIndicator />
-          </ThemeProvider>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="white"
+          forcedTheme="white"
+          enableSystem={false}
+          disableTransitionOnChange
+        >
+          <ModalProvider>{children}</ModalProvider>
+          <Toaster richColors closeButton />
+          <TailwindIndicator />
+        </ThemeProvider>
       </body>
     </html>
   );
